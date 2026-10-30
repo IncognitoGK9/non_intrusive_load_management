@@ -146,7 +146,7 @@ fig = plt.figure(figsize=(13.28, 5.31), dpi=200); ax = fig.add_axes([0, 0, 1, 1]
 def box(x0, w0, t):
     ax.add_patch(FancyBboxPatch((x0, 0.35), w0, 4.15, boxstyle="round,pad=0.02,rounding_size=0.12", fc="#f7fafc", ec="#cbd5e0", lw=1.2))
     ax.text(x0 + w0 / 2, 4.15, t, ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
-ax.text(6.64, 4.98, "What matters in classical non-intrusive load monitoring?", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
+ax.text(6.64, 4.98, "What matters in classical machine learning for non-intrusive load monitoring?", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
 box(0.2, 2.9, "1. Data")
 for i, t in enumerate(["REFIT: 20 UK households", "Aggregate meter, about 8 s", "Five appliances:", "fridge, washing machine,", "dishwasher, kettle, microwave"]):
     ax.text(0.45, 3.5 - i * 0.52, t, fontsize=10.5, color=INK if i != 2 else MUTE, va="center")

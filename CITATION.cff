@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite the paper and this repository."
-title: "What matters in classical non-intrusive load monitoring? A factorial benchmark on REFIT with validation on unseen houses (code and results)"
+title: "What matters in classical machine learning for non-intrusive load monitoring? A factorial benchmark on REFIT with validation on unseen houses (code and results)"
 authors:
   - family-names: Ombiro
     given-names: Zablon
