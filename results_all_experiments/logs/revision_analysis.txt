@@ -1,0 +1,304 @@
+{
+ "imb_matched_pooled": {
+  "ADASYN": 0.274,
+  "SMOTE": 0.2908,
+  "class_weight": 0.3054,
+  "none": 0.2311
+ },
+ "cw_gain_matched_pooled": 32.13575272407561,
+ "drop_imb_matched": {
+  "ADASYN": 0.0235,
+  "SMOTE": 0.0207,
+  "class_weight": 0.0359,
+  "none": 0.0715
+ },
+ "imb_matched_lho": {
+  "ADASYN": 0.2504,
+  "SMOTE": 0.2701,
+  "class_weight": 0.2695,
+  "none": 0.1596
+ },
+ "cw_gain_matched_lho": 68.81507907952118,
+ "bestcase_imb_matched": {
+  "ADASYN": 0.509,
+  "SMOTE": 0.501,
+  "class_weight": 0.518,
+  "none": 0.467
+ },
+ "anova_twoway_no_knn": {
+  "shares": {
+   "C(appliance)": 37.0,
+   "C(model)": 7.76,
+   "C(arm)": 14.26,
+   "C(imbalance)": 3.01,
+   "C(appliance):C(model)": 1.14,
+   "C(appliance):C(arm)": 6.6,
+   "C(appliance):C(imbalance)": 14.03,
+   "C(model):C(arm)": 3.28,
+   "C(model):C(imbalance)": 4.61,
+   "C(arm):C(imbalance)": 2.24,
+   "Residual": 6.07
+  },
+  "p": {
+   "C(appliance)": 6.256553731567793e-70,
+   "C(model)": 3.31159081350611e-28,
+   "C(arm)": 1.0768482150717341e-45,
+   "C(imbalance)": 1.50777472250577e-14,
+   "C(appliance):C(model)": 0.06571584008581732,
+   "C(appliance):C(arm)": 9.209321455091128e-26,
+   "C(appliance):C(imbalance)": 2.606687208093587e-37,
+   "C(model):C(arm)": 2.791307535923999e-14,
+   "C(model):C(imbalance)": 3.2403750553821445e-14,
+   "C(arm):C(imbalance)": 2.215342221383417e-11
+  },
+  "r2": 0.9393105653063792,
+  "n": 240
+ },
+ "anova_main_no_knn": {
+  "C(appliance)": 37.0,
+  "C(model)": 7.76,
+  "C(arm)": 14.26,
+  "C(imbalance)": 3.01,
+  "Residual": 37.97
+ },
+ "anova_rank_main": {
+  "C(appliance)": 39.51,
+  "C(model)": 7.66,
+  "C(arm)": 12.86,
+  "C(imbalance)": 2.28,
+  "Residual": 37.69
+ },
+ "shapiro_p": 0.002906331663645784,
+ "levene_app_p": 0.00011807755263351477,
+ "friedman_pooled": {
+  "chi2": 21.171428571428578,
+  "iman_davenport_F": 9.592233009708748,
+  "p": 2.0385117173404523e-05
+ },
+ "rho_drop_vs_pooled": 0.6319826304451038,
+ "rho_drop_vs_mean": [
+  0.508930776045023,
+  3.3973061356825834e-19
+ ],
+ "nested": {
+  "per_app": {
+   "dishwasher": {
+    "grouped_f1": 0.3237,
+    "pooled_f1": 0.2134,
+    "oracle_f1": 0.3778
+   },
+   "fridge": {
+    "grouped_f1": 0.4667,
+    "pooled_f1": 0.4736,
+    "oracle_f1": 0.4777
+   },
+   "kettle": {
+    "grouped_f1": 0.4824,
+    "pooled_f1": 0.4857,
+    "oracle_f1": 0.4965
+   },
+   "microwave": {
+    "grouped_f1": 0.2549,
+    "pooled_f1": 0.2248,
+    "oracle_f1": 0.2662
+   },
+   "washing_machine": {
+    "grouped_f1": 0.5134,
+    "pooled_f1": 0.4782,
+    "oracle_f1": 0.5306
+   }
+  },
+  "gain": {
+   "dishwasher": 0.1104,
+   "fridge": -0.0069,
+   "kettle": -0.0033,
+   "microwave": 0.0301,
+   "washing_machine": 0.0352
+  },
+  "w_grouped": 0.4548191231699224,
+  "w_pooled": 0.4461334847225095,
+  "w_oracle": 0.4706663918415973,
+  "folds_better": 12,
+  "folds_worse": 10,
+  "choices": {
+   "dishwasher": {
+    "XGBoost/SMOTE": 3,
+    "LogisticRegression/SMOTE": 2
+   },
+   "fridge": {
+    "DecisionTree/class_weight": 4,
+    "LightGBM/class_weight": 1
+   },
+   "kettle": {
+    "XGBoost/none": 3,
+    "LightGBM/SMOTE": 2
+   },
+   "microwave": {
+    "XGBoost/SMOTE": 3,
+    "XGBoost/ADASYN": 2
+   },
+   "washing_machine": {
+    "XGBoost/SMOTE": 5
+   }
+  }
+ },
+ "cnn_calibrated": {
+  "causal": {
+   "per_app": {
+    "dishwasher": {
+     "f1": 0.3903,
+     "sd": 0.1403,
+     "precision": 0.4352,
+     "recall": 0.3899,
+     "f1_at_05": 0.2975,
+     "folds": 5
+    },
+    "fridge": {
+     "f1": 0.4972,
+     "sd": 0.1393,
+     "precision": 0.367,
+     "recall": 0.85,
+     "f1_at_05": 0.4775,
+     "folds": 5
+    },
+    "kettle": {
+     "f1": 0.5331,
+     "sd": 0.1561,
+     "precision": 0.4978,
+     "recall": 0.6415,
+     "f1_at_05": 0.22,
+     "folds": 5
+    },
+    "microwave": {
+     "f1": 0.249,
+     "sd": 0.1078,
+     "precision": 0.2001,
+     "recall": 0.4111,
+     "f1_at_05": 0.0827,
+     "folds": 5
+    },
+    "washing_machine": {
+     "f1": 0.6321,
+     "sd": 0.0579,
+     "precision": 0.5888,
+     "recall": 0.6947,
+     "f1_at_05": 0.4464,
+     "folds": 5
+    }
+   },
+   "weighted": 0.4962486320410305,
+   "macro": 0.4603194464442696,
+   "weighted_at_05": 0.4500186688588851,
+   "complete": true
+  },
+  "centred": {
+   "per_app": {
+    "dishwasher": {
+     "f1": 0.4409,
+     "sd": 0.1413,
+     "precision": 0.4817,
+     "recall": 0.441,
+     "f1_at_05": 0.3557,
+     "folds": 5
+    },
+    "fridge": {
+     "f1": 0.4925,
+     "sd": 0.1384,
+     "precision": 0.3553,
+     "recall": 0.8711,
+     "f1_at_05": 0.4723,
+     "folds": 5
+    },
+    "kettle": {
+     "f1": 0.39,
+     "sd": 0.0676,
+     "precision": 0.3022,
+     "recall": 0.611,
+     "f1_at_05": 0.1784,
+     "folds": 5
+    },
+    "microwave": {
+     "f1": 0.1599,
+     "sd": 0.0629,
+     "precision": 0.1036,
+     "recall": 0.3967,
+     "f1_at_05": 0.0736,
+     "folds": 5
+    },
+    "washing_machine": {
+     "f1": 0.6635,
+     "sd": 0.0515,
+     "precision": 0.6043,
+     "recall": 0.7468,
+     "f1_at_05": 0.4894,
+     "folds": 5
+    }
+   },
+   "weighted": 0.49739415277858245,
+   "macro": 0.4293454315556893,
+   "weighted_at_05": 0.4546101135648292,
+   "complete": true
+  }
+ },
+ "sensitivity": {
+  "n_configs": 161,
+  "complete": true,
+  "eff_ref": {
+   "fs_gain": 56.60681632678146,
+   "cw_gain": 61.865330309376134
+  },
+  "eff_sens": {
+   "fs_gain": 55.65800783035439,
+   "cw_gain": 57.435238195239855
+  },
+  "mean_change": 0.013148318942408919,
+  "rho_ref_sens": 0.9739619277662757,
+  "rho_pooled_sens": 0.880595813204509,
+  "selections": {
+   "fridge": {
+    "config": "RandomForest/B/class_weight",
+    "ref": 0.4744117646226361,
+    "sens": 0.48101450676732876,
+    "best_fast_ref": "LightGBM/B/class_weight",
+    "best_fast_sens": "XGBoost/B/class_weight"
+   },
+   "washing_machine": {
+    "config": "XGBoost/B/none",
+    "ref": 0.4737676814240778,
+    "sens": 0.5206176365778453,
+    "best_fast_ref": "LightGBM/B/SMOTE",
+    "best_fast_sens": "LightGBM/B/SMOTE"
+   },
+   "dishwasher": {
+    "config": "XGBoost/B/none",
+    "ref": 0.22406886301765572,
+    "sens": 0.23955232822756795,
+    "best_fast_ref": "XGBoost/B/SMOTE",
+    "best_fast_sens": "LightGBM/B/SMOTE"
+   },
+   "kettle": {
+    "config": "XGBoost/B/none",
+    "ref": 0.42085032912287196,
+    "sens": 0.4955353554586008,
+    "best_fast_ref": "LightGBM/B/SMOTE",
+    "best_fast_sens": "LightGBM/B/SMOTE"
+   },
+   "microwave": {
+    "config": "XGBoost/B/class_weight",
+    "ref": 0.22419967361403487,
+    "sens": 0.24833444538237295,
+    "best_fast_ref": "LightGBM/B/SMOTE",
+    "best_fast_sens": "XGBoost/B/SMOTE"
+   }
+  },
+  "w_pooledsel_ref": 0.4465907202324525,
+  "w_pooledsel_sens": 0.4585470353913963,
+  "per_app_change": {
+   "dishwasher": -0.0103,
+   "fridge": 0.0129,
+   "kettle": 0.0315,
+   "microwave": 0.0079,
+   "washing_machine": 0.0238
+  }
+ }
+}

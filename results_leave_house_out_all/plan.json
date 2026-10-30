@@ -1,0 +1,377 @@
+[
+ {
+  "appliance": "dishwasher",
+  "model": "DecisionTree",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 12,
+   "min_samples_leaf": 1
+  },
+  "f1_cv": 0.4996700883079191,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "LightGBM",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.4986762926495919,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "LogisticRegression",
+  "imbalance": "class_weight",
+  "params": {
+   "lr__C": 0.1
+  },
+  "f1_cv": 0.328255466441638,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "RandomForest",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 12,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.4908074425398926,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "SVM_RBF",
+  "imbalance": "none",
+  "params": {
+   "svc__C": 10,
+   "svc__gamma": "scale"
+  },
+  "f1_cv": 0.4422536229893684,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "XGBoost",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.5115769292789729,
+  "nfold": 5
+ },
+ {
+  "appliance": "dishwasher",
+  "model": "kNN",
+  "imbalance": "none",
+  "params": {
+   "knn__n_neighbors": 5
+  },
+  "f1_cv": 0.4891860444777846,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "DecisionTree",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 12,
+   "min_samples_leaf": 1
+  },
+  "f1_cv": 0.5417979099324681,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "LightGBM",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5515890418955648,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "LogisticRegression",
+  "imbalance": "class_weight",
+  "params": {
+   "lr__C": 10
+  },
+  "f1_cv": 0.4045615775017229,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "RandomForest",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 12,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5564967577896249,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "SVM_RBF",
+  "imbalance": "class_weight",
+  "params": {
+   "svc__C": 10,
+   "svc__gamma": "auto"
+  },
+  "f1_cv": 0.4983307253090189,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "XGBoost",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 4,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5518679222456961,
+  "nfold": 5
+ },
+ {
+  "appliance": "fridge",
+  "model": "kNN",
+  "imbalance": "SMOTE",
+  "params": {
+   "model__knn__n_neighbors": 11
+  },
+  "f1_cv": 0.4910935796610163,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "DecisionTree",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 6,
+   "min_samples_leaf": 1
+  },
+  "f1_cv": 0.5189975162013793,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "LightGBM",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5104215490841344,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "LogisticRegression",
+  "imbalance": "class_weight",
+  "params": {
+   "lr__C": 0.1
+  },
+  "f1_cv": 0.1558066592109963,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "RandomForest",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 12,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.5489657493953589,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "SVM_RBF",
+  "imbalance": "none",
+  "params": {
+   "svc__C": 1,
+   "svc__gamma": "scale"
+  },
+  "f1_cv": 0.5437159191063026,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "XGBoost",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 4,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5701651230481249,
+  "nfold": 5
+ },
+ {
+  "appliance": "kettle",
+  "model": "kNN",
+  "imbalance": "none",
+  "params": {
+   "knn__n_neighbors": 11
+  },
+  "f1_cv": 0.5506311619488722,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "DecisionTree",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": null,
+   "min_samples_leaf": 5
+  },
+  "f1_cv": 0.2540995095909885,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "LightGBM",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": -1,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.182384890040416,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "LogisticRegression",
+  "imbalance": "SMOTE",
+  "params": {
+   "model__lr__C": 0.1
+  },
+  "f1_cv": 0.0792388469467844,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "RandomForest",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 12,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.1505614112043893,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "SVM_RBF",
+  "imbalance": "class_weight",
+  "params": {
+   "svc__C": 10,
+   "svc__gamma": "scale"
+  },
+  "f1_cv": 0.1464831238754353,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "XGBoost",
+  "imbalance": "class_weight",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.3244862609951511,
+  "nfold": 5
+ },
+ {
+  "appliance": "microwave",
+  "model": "kNN",
+  "imbalance": "none",
+  "params": {
+   "knn__n_neighbors": 3
+  },
+  "f1_cv": 0.2372116963272951,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "DecisionTree",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 12,
+   "min_samples_leaf": 5
+  },
+  "f1_cv": 0.4738249117304826,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "LightGBM",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.5057956049146745,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "LogisticRegression",
+  "imbalance": "SMOTE",
+  "params": {
+   "model__lr__C": 0.1
+  },
+  "f1_cv": 0.308494973603911,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "RandomForest",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 12,
+   "n_estimators": 300
+  },
+  "f1_cv": 0.4375188810872042,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "SVM_RBF",
+  "imbalance": "SMOTE",
+  "params": {
+   "model__svc__C": 10,
+   "model__svc__gamma": "scale"
+  },
+  "f1_cv": 0.3943867990931819,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "XGBoost",
+  "imbalance": "none",
+  "params": {
+   "max_depth": 8,
+   "n_estimators": 100
+  },
+  "f1_cv": 0.5322846420833477,
+  "nfold": 5
+ },
+ {
+  "appliance": "washing_machine",
+  "model": "kNN",
+  "imbalance": "none",
+  "params": {
+   "knn__n_neighbors": 5
+  },
+  "f1_cv": 0.4556802861159365,
+  "nfold": 5
+ }
+]

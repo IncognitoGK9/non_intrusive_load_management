@@ -1,0 +1,92 @@
+dishwasher RandomForest 5 0.0844 177.5
+fridge RandomForest 1 0.5112 68.5
+fridge RandomForest 2 0.4495 67.7
+fridge RandomForest 3 0.5393 68.3
+fridge RandomForest 4 0.5798 72.3
+fridge RandomForest 5 0.2923 74.4
+kettle RandomForest 1 0.2855 177.2
+kettle RandomForest 2 0.6691 192.8
+kettle RandomForest 3 0.248 190.5
+kettle RandomForest 4 0.6084 192.2
+kettle RandomForest 5 0.4731 192.5
+microwave RandomForest 1 0.1678 50.9
+microwave RandomForest 2 0.1591 56.4
+microwave RandomForest 3 0.1303 56.4
+microwave RandomForest 4 0.2305 54.2
+microwave RandomForest 5 0.0484 54.9
+washing_machine RandomForest 1 0.4596 221.1
+washing_machine RandomForest 2 0.3299 222.7
+washing_machine RandomForest 3 0.3519 222.5
+washing_machine RandomForest 4 0.4307 235.8
+washing_machine RandomForest 5 0.4599 221.7
+dishwasher kNN 1 0.2531 28.0
+dishwasher kNN 2 0.2758 22.8
+dishwasher kNN 3 0.2387 29.1
+dishwasher kNN 4 0.2676 22.9
+dishwasher kNN 5 0.1232 30.5
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+fridge kNN 1 0.4189 71.6
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+fridge kNN 2 0.391 53.6
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+fridge kNN 3 0.4379 77.8
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+fridge kNN 4 0.4475 69.0
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+fridge kNN 5 0.2624 69.4
+kettle kNN 1 0.3269 54.3
+kettle kNN 2 0.6816 42.1
+kettle kNN 3 0.2545 40.7
+kettle kNN 4 0.615 56.0
+kettle kNN 5 0.4751 41.4
+microwave kNN 1 0.1146 24.6
+microwave kNN 2 0.2189 27.3
+microwave kNN 3 0.1412 26.9
+microwave kNN 4 0.1644 30.2
+microwave kNN 5 0.1383 27.0
+washing_machine kNN 1 0.4615 52.3
+washing_machine kNN 2 0.3084 52.3
+washing_machine kNN 3 0.3736 47.5
+washing_machine kNN 4 0.414 32.4
+washing_machine kNN 5 0.4139 47.8
+dishwasher SVM_RBF 1 0.5294 229.3
+dishwasher SVM_RBF 2 0.2188 283.5
+dishwasher SVM_RBF 3 0.1836 335.1
+dishwasher SVM_RBF 4 0.197 345.5
+dishwasher SVM_RBF 5 0.1229 502.2
+fridge SVM_RBF 1 0.4827 927.5
+fridge SVM_RBF 2 0.4659 942.3
+fridge SVM_RBF 3 0.5356 938.8
+fridge SVM_RBF 4 0.5648 767.8
+fridge SVM_RBF 5 0.2806 787.2
+kettle SVM_RBF 1 0.3565 121.9
+kettle SVM_RBF 2 0.6326 102.2
+kettle SVM_RBF 3 0.2491 79.1
+kettle SVM_RBF 4 0.6112 103.1
+kettle SVM_RBF 5 0.4735 54.9
+microwave SVM_RBF 1 0.1299 76.5
+microwave SVM_RBF 2 0.1431 74.3
+microwave SVM_RBF 3 0.1492 64.1
+microwave SVM_RBF 4 0.1861 60.2
+microwave SVM_RBF 5 0.0439 50.9
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+washing_machine SVM_RBF 1 0.3315 673.4
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+washing_machine SVM_RBF 2 0.3813 576.5
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+washing_machine SVM_RBF 3 0.4275 711.6
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+washing_machine SVM_RBF 4 0.445 592.9
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+washing_machine SVM_RBF 5 0.2962 674.6
+ALL DONE

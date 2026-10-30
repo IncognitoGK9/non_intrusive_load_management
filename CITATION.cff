@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this repository."
+title: "What matters in classical non-intrusive load monitoring? A factorial benchmark on REFIT with validation on unseen houses (code and results)"
+authors:
+  - family-names: Ombiro
+    given-names: Zablon
+    affiliation: "School of Computing and Engineering Sciences, Strathmore University, Nairobi, Kenya"
+license: MIT
+repository-code: "https://github.com/IncognitoGK9/non_intrusive_load_management"
+date-released: 2026-10-30
+keywords: [non-intrusive load monitoring, NILM, REFIT, classical machine learning, class imbalance, leave-house-out validation]

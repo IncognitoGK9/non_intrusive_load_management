@@ -1,0 +1,31 @@
+  WARNING: The script isympy is installed in '/Users/incognito/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts torchfrtrace and torchrun are installed in '/Users/incognito/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+2026-10-16 11:56:08 [D] raw data: /Users/incognito/refit_raw
+2026-10-16 11:59:19 [D] 1/25 fridge fold 1 F1=0.5010 119.5s
+2026-10-16 12:01:10 [D] 2/25 fridge fold 2 F1=0.4526 111.2s
+2026-10-16 12:03:00 [D] 3/25 fridge fold 3 F1=0.5269 109.9s
+2026-10-16 12:04:59 [D] 4/25 fridge fold 4 F1=0.5711 118.9s
+2026-10-16 12:06:58 [D] 5/25 fridge fold 5 F1=0.2909 119.3s
+2026-10-16 12:10:10 [D] 6/25 washing_machine fold 1 F1=0.3735 118.0s
+2026-10-16 12:12:07 [D] 7/25 washing_machine fold 2 F1=0.5059 117.6s
+2026-10-16 12:14:07 [D] 8/25 washing_machine fold 3 F1=0.4744 119.8s
+2026-10-16 12:16:14 [D] 9/25 washing_machine fold 4 F1=0.5983 127.1s
+2026-10-16 12:18:14 [D] 10/25 washing_machine fold 5 F1=0.4990 119.9s
+2026-10-16 12:20:48 [D] 11/25 dishwasher fold 1 F1=0.4426 96.3s
+2026-10-16 12:22:24 [D] 12/25 dishwasher fold 2 F1=0.3930 95.8s
+2026-10-16 12:23:59 [D] 13/25 dishwasher fold 3 F1=0.1928 94.7s
+2026-10-16 12:25:33 [D] 14/25 dishwasher fold 4 F1=0.3123 94.6s
+2026-10-16 12:27:09 [D] 15/25 dishwasher fold 5 F1=0.3775 95.9s
+2026-10-16 12:29:47 [D] 16/25 kettle fold 1 F1=0.1689 95.9s
+2026-10-16 12:31:30 [D] 17/25 kettle fold 2 F1=0.2020 103.3s
+2026-10-16 12:33:15 [D] 18/25 kettle fold 3 F1=0.0726 104.2s
+2026-10-16 12:35:01 [D] 19/25 kettle fold 4 F1=0.1578 106.5s
+2026-10-16 12:36:48 [D] 20/25 kettle fold 5 F1=0.1489 106.6s
+2026-10-16 12:39:30 [D] 21/25 microwave fold 1 F1=0.0940 99.8s
+2026-10-16 12:41:18 [D] 22/25 microwave fold 2 F1=0.0789 108.3s
+2026-10-16 12:43:21 [D] 23/25 microwave fold 3 F1=0.0796 122.4s
+2026-10-16 12:45:19 [D] 24/25 microwave fold 4 F1=0.1103 118.2s
+2026-10-16 12:47:11 [D] 25/25 microwave fold 5 F1=0.0395 112.0s
+2026-10-16 12:47:11 PHASE D DONE

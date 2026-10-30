@@ -1,0 +1,1551 @@
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:22 [A] 1/550 seed 42 dishwasher A LightGBM none fold 1 F1=0.1746 4.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:26 [A] 2/550 seed 42 dishwasher A LightGBM none fold 2 F1=0.1281 3.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:29 [A] 3/550 seed 42 dishwasher A LightGBM none fold 3 F1=0.1329 2.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:31 [A] 4/550 seed 42 dishwasher A LightGBM none fold 4 F1=0.0810 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:34 [A] 5/550 seed 42 dishwasher A LightGBM none fold 5 F1=0.0556 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:35 [A] 6/550 seed 42 dishwasher A LightGBM class_weight fold 1 F1=0.3505 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:37 [A] 7/550 seed 42 dishwasher A LightGBM class_weight fold 2 F1=0.2412 1.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:38 [A] 8/550 seed 42 dishwasher A LightGBM class_weight fold 3 F1=0.0868 1.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:39 [A] 9/550 seed 42 dishwasher A LightGBM class_weight fold 4 F1=0.1851 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:41 [A] 10/550 seed 42 dishwasher A LightGBM class_weight fold 5 F1=0.2296 1.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:43 [A] 11/550 seed 42 dishwasher A LightGBM SMOTE fold 1 F1=0.3486 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:46 [A] 12/550 seed 42 dishwasher A LightGBM SMOTE fold 2 F1=0.2423 2.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:48 [A] 13/550 seed 42 dishwasher A LightGBM SMOTE fold 3 F1=0.0865 2.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:51 [A] 14/550 seed 42 dishwasher A LightGBM SMOTE fold 4 F1=0.1811 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:54 [A] 15/550 seed 42 dishwasher A LightGBM SMOTE fold 5 F1=0.2207 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:23:56 [A] 16/550 seed 42 dishwasher A LightGBM ADASYN fold 1 F1=0.2900 2.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:24:00 [A] 17/550 seed 42 dishwasher A LightGBM ADASYN fold 2 F1=0.1889 3.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:24:03 [A] 18/550 seed 42 dishwasher A LightGBM ADASYN fold 3 F1=0.0626 3.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:24:07 [A] 19/550 seed 42 dishwasher A LightGBM ADASYN fold 4 F1=0.1391 3.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:24:10 [A] 20/550 seed 42 dishwasher A LightGBM ADASYN fold 5 F1=0.1991 3.0s
+2026-10-16 06:24:14 [A] 21/550 seed 42 dishwasher A kNN none fold 1 F1=0.1988 3.9s
+2026-10-16 06:24:17 [A] 22/550 seed 42 dishwasher A kNN none fold 2 F1=0.1803 3.7s
+2026-10-16 06:24:21 [A] 23/550 seed 42 dishwasher A kNN none fold 3 F1=0.1338 3.8s
+2026-10-16 06:24:25 [A] 24/550 seed 42 dishwasher A kNN none fold 4 F1=0.1611 3.7s
+2026-10-16 06:24:28 [A] 25/550 seed 42 dishwasher A kNN none fold 5 F1=0.0756 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:32 [A] 26/550 seed 42 dishwasher A kNN SMOTE fold 1 F1=0.4327 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:37 [A] 27/550 seed 42 dishwasher A kNN SMOTE fold 2 F1=0.3071 4.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:41 [A] 28/550 seed 42 dishwasher A kNN SMOTE fold 3 F1=0.2002 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:45 [A] 29/550 seed 42 dishwasher A kNN SMOTE fold 4 F1=0.2696 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:49 [A] 30/550 seed 42 dishwasher A kNN SMOTE fold 5 F1=0.2323 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:54 [A] 31/550 seed 42 dishwasher A kNN ADASYN fold 1 F1=0.4272 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:24:58 [A] 32/550 seed 42 dishwasher A kNN ADASYN fold 2 F1=0.3029 4.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:25:03 [A] 33/550 seed 42 dishwasher A kNN ADASYN fold 3 F1=0.1958 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:25:08 [A] 34/550 seed 42 dishwasher A kNN ADASYN fold 4 F1=0.2635 4.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:25:12 [A] 35/550 seed 42 dishwasher A kNN ADASYN fold 5 F1=0.2457 4.3s
+2026-10-16 06:25:25 [A] 36/550 seed 42 dishwasher A RandomForest none fold 1 F1=0.1751 12.6s
+2026-10-16 06:25:38 [A] 37/550 seed 42 dishwasher A RandomForest none fold 2 F1=0.1198 13.7s
+2026-10-16 06:25:52 [A] 38/550 seed 42 dishwasher A RandomForest none fold 3 F1=0.1261 13.3s
+2026-10-16 06:26:04 [A] 39/550 seed 42 dishwasher A RandomForest none fold 4 F1=0.0844 12.9s
+2026-10-16 06:26:17 [A] 40/550 seed 42 dishwasher A RandomForest none fold 5 F1=0.0560 12.7s
+2026-10-16 06:26:31 [A] 41/550 seed 42 dishwasher A RandomForest class_weight fold 1 F1=0.3442 13.8s
+2026-10-16 06:26:44 [A] 42/550 seed 42 dishwasher A RandomForest class_weight fold 2 F1=0.2499 12.7s
+2026-10-16 06:26:56 [A] 43/550 seed 42 dishwasher A RandomForest class_weight fold 3 F1=0.0948 11.9s
+2026-10-16 06:27:09 [A] 44/550 seed 42 dishwasher A RandomForest class_weight fold 4 F1=0.1963 13.7s
+2026-10-16 06:27:24 [A] 45/550 seed 42 dishwasher A RandomForest class_weight fold 5 F1=0.1875 14.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:28:49 [A] 46/550 seed 42 dishwasher A RandomForest SMOTE fold 1 F1=0.3477 85.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:30:07 [A] 47/550 seed 42 dishwasher A RandomForest SMOTE fold 2 F1=0.2438 77.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:31:36 [A] 48/550 seed 42 dishwasher A RandomForest SMOTE fold 3 F1=0.0887 89.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:33:02 [A] 49/550 seed 42 dishwasher A RandomForest SMOTE fold 4 F1=0.1843 85.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:34:32 [A] 50/550 seed 42 dishwasher A RandomForest SMOTE fold 5 F1=0.2064 90.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:35:48 [A] 51/550 seed 42 dishwasher A RandomForest ADASYN fold 1 F1=0.2905 75.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:37:07 [A] 52/550 seed 42 dishwasher A RandomForest ADASYN fold 2 F1=0.1876 79.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:38:23 [A] 53/550 seed 42 dishwasher A RandomForest ADASYN fold 3 F1=0.0641 75.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:39:39 [A] 54/550 seed 42 dishwasher A RandomForest ADASYN fold 4 F1=0.1386 76.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:40:53 [A] 55/550 seed 42 dishwasher A RandomForest ADASYN fold 5 F1=0.1818 73.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:40:57 [A] 56/550 seed 42 dishwasher B LightGBM none fold 1 F1=0.1586 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:00 [A] 57/550 seed 42 dishwasher B LightGBM none fold 2 F1=0.2791 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:04 [A] 58/550 seed 42 dishwasher B LightGBM none fold 3 F1=0.2409 3.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:07 [A] 59/550 seed 42 dishwasher B LightGBM none fold 4 F1=0.2486 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:10 [A] 60/550 seed 42 dishwasher B LightGBM none fold 5 F1=0.0812 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:13 [A] 61/550 seed 42 dishwasher B LightGBM class_weight fold 1 F1=0.3761 2.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:15 [A] 62/550 seed 42 dishwasher B LightGBM class_weight fold 2 F1=0.2737 2.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:17 [A] 63/550 seed 42 dishwasher B LightGBM class_weight fold 3 F1=0.1068 2.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:19 [A] 64/550 seed 42 dishwasher B LightGBM class_weight fold 4 F1=0.1964 2.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:22 [A] 65/550 seed 42 dishwasher B LightGBM class_weight fold 5 F1=0.2336 2.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:27 [A] 66/550 seed 42 dishwasher B LightGBM SMOTE fold 1 F1=0.4267 5.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:31 [A] 67/550 seed 42 dishwasher B LightGBM SMOTE fold 2 F1=0.3391 4.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:35 [A] 68/550 seed 42 dishwasher B LightGBM SMOTE fold 3 F1=0.3833 3.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:39 [A] 69/550 seed 42 dishwasher B LightGBM SMOTE fold 4 F1=0.3369 3.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:42 [A] 70/550 seed 42 dishwasher B LightGBM SMOTE fold 5 F1=0.3040 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:48 [A] 71/550 seed 42 dishwasher B LightGBM ADASYN fold 1 F1=0.2912 6.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:41:56 [A] 72/550 seed 42 dishwasher B LightGBM ADASYN fold 2 F1=0.3166 7.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:42:03 [A] 73/550 seed 42 dishwasher B LightGBM ADASYN fold 3 F1=0.3451 7.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:42:10 [A] 74/550 seed 42 dishwasher B LightGBM ADASYN fold 4 F1=0.3122 7.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 06:42:15 [A] 75/550 seed 42 dishwasher B LightGBM ADASYN fold 5 F1=0.1355 5.5s
+2026-10-16 06:42:33 [A] 76/550 seed 42 dishwasher B kNN none fold 1 F1=0.2531 17.2s
+2026-10-16 06:42:49 [A] 77/550 seed 42 dishwasher B kNN none fold 2 F1=0.2758 16.7s
+2026-10-16 06:43:09 [A] 78/550 seed 42 dishwasher B kNN none fold 3 F1=0.2387 19.3s
+2026-10-16 06:43:25 [A] 79/550 seed 42 dishwasher B kNN none fold 4 F1=0.2676 16.1s
+2026-10-16 06:43:48 [A] 80/550 seed 42 dishwasher B kNN none fold 5 F1=0.1232 23.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:44:09 [A] 81/550 seed 42 dishwasher B kNN SMOTE fold 1 F1=0.3348 20.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:44:28 [A] 82/550 seed 42 dishwasher B kNN SMOTE fold 2 F1=0.2750 18.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:44:51 [A] 83/550 seed 42 dishwasher B kNN SMOTE fold 3 F1=0.1348 23.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:45:08 [A] 84/550 seed 42 dishwasher B kNN SMOTE fold 4 F1=0.2359 16.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:45:34 [A] 85/550 seed 42 dishwasher B kNN SMOTE fold 5 F1=0.2195 25.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:45:58 [A] 86/550 seed 42 dishwasher B kNN ADASYN fold 1 F1=0.3182 24.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:46:17 [A] 87/550 seed 42 dishwasher B kNN ADASYN fold 2 F1=0.2472 19.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:46:46 [A] 88/550 seed 42 dishwasher B kNN ADASYN fold 3 F1=0.1076 28.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:47:05 [A] 89/550 seed 42 dishwasher B kNN ADASYN fold 4 F1=0.2039 19.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 06:47:36 [A] 90/550 seed 42 dishwasher B kNN ADASYN fold 5 F1=0.2069 30.7s
+2026-10-16 06:49:48 [A] 91/550 seed 42 dishwasher B RandomForest none fold 1 F1=0.1430 132.2s
+2026-10-16 06:52:02 [A] 92/550 seed 42 dishwasher B RandomForest none fold 2 F1=0.2652 134.2s
+2026-10-16 06:54:18 [A] 93/550 seed 42 dishwasher B RandomForest none fold 3 F1=0.2124 135.5s
+2026-10-16 06:56:33 [A] 94/550 seed 42 dishwasher B RandomForest none fold 4 F1=0.2414 135.0s
+2026-10-16 06:58:46 [A] 95/550 seed 42 dishwasher B RandomForest none fold 5 F1=0.0844 133.4s
+2026-10-16 07:00:56 [A] 96/550 seed 42 dishwasher B RandomForest class_weight fold 1 F1=0.3239 129.6s
+2026-10-16 07:03:09 [A] 97/550 seed 42 dishwasher B RandomForest class_weight fold 2 F1=0.2992 133.5s
+2026-10-16 07:05:17 [A] 98/550 seed 42 dishwasher B RandomForest class_weight fold 3 F1=0.1364 127.8s
+2026-10-16 07:07:34 [A] 99/550 seed 42 dishwasher B RandomForest class_weight fold 4 F1=0.2606 137.1s
+2026-10-16 07:09:47 [A] 100/550 seed 42 dishwasher B RandomForest class_weight fold 5 F1=0.1885 132.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:16:04 [A] 101/550 seed 42 dishwasher B RandomForest SMOTE fold 1 F1=0.2632 376.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:22:36 [A] 102/550 seed 42 dishwasher B RandomForest SMOTE fold 2 F1=0.3037 392.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:28:58 [A] 103/550 seed 42 dishwasher B RandomForest SMOTE fold 3 F1=0.1561 381.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:35:04 [A] 104/550 seed 42 dishwasher B RandomForest SMOTE fold 4 F1=0.2677 365.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:42:03 [A] 105/550 seed 42 dishwasher B RandomForest SMOTE fold 5 F1=0.1848 418.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:48:29 [A] 106/550 seed 42 dishwasher B RandomForest ADASYN fold 1 F1=0.2197 385.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 07:54:37 [A] 107/550 seed 42 dishwasher B RandomForest ADASYN fold 2 F1=0.2642 368.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:01:10 [A] 108/550 seed 42 dishwasher B RandomForest ADASYN fold 3 F1=0.0849 392.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:07:33 [A] 109/550 seed 42 dishwasher B RandomForest ADASYN fold 4 F1=0.1935 383.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:14:02 [A] 110/550 seed 42 dishwasher B RandomForest ADASYN fold 5 F1=0.1383 388.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:07 [A] 111/550 seed 42 fridge A LightGBM none fold 1 F1=0.1059 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:12 [A] 112/550 seed 42 fridge A LightGBM none fold 2 F1=0.1291 4.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:17 [A] 113/550 seed 42 fridge A LightGBM none fold 3 F1=0.1658 4.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:22 [A] 114/550 seed 42 fridge A LightGBM none fold 4 F1=0.1038 4.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:27 [A] 115/550 seed 42 fridge A LightGBM none fold 5 F1=0.2263 5.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:29 [A] 116/550 seed 42 fridge A LightGBM class_weight fold 1 F1=0.5058 2.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:32 [A] 117/550 seed 42 fridge A LightGBM class_weight fold 2 F1=0.4276 2.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:34 [A] 118/550 seed 42 fridge A LightGBM class_weight fold 3 F1=0.5328 2.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:35 [A] 119/550 seed 42 fridge A LightGBM class_weight fold 4 F1=0.5603 1.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:37 [A] 120/550 seed 42 fridge A LightGBM class_weight fold 5 F1=0.3045 2.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:40 [A] 121/550 seed 42 fridge A LightGBM SMOTE fold 1 F1=0.5059 3.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:44 [A] 122/550 seed 42 fridge A LightGBM SMOTE fold 2 F1=0.4245 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:46 [A] 123/550 seed 42 fridge A LightGBM SMOTE fold 3 F1=0.5341 2.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:49 [A] 124/550 seed 42 fridge A LightGBM SMOTE fold 4 F1=0.5614 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:52 [A] 125/550 seed 42 fridge A LightGBM SMOTE fold 5 F1=0.3059 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:14:56 [A] 126/550 seed 42 fridge A LightGBM ADASYN fold 1 F1=0.5236 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:15:00 [A] 127/550 seed 42 fridge A LightGBM ADASYN fold 2 F1=0.4386 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:15:03 [A] 128/550 seed 42 fridge A LightGBM ADASYN fold 3 F1=0.5293 3.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:15:07 [A] 129/550 seed 42 fridge A LightGBM ADASYN fold 4 F1=0.5406 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:15:12 [A] 130/550 seed 42 fridge A LightGBM ADASYN fold 5 F1=0.2987 4.7s
+2026-10-16 08:15:17 [A] 131/550 seed 42 fridge A kNN none fold 1 F1=0.2867 4.5s
+2026-10-16 08:15:21 [A] 132/550 seed 42 fridge A kNN none fold 2 F1=0.3755 4.6s
+2026-10-16 08:15:26 [A] 133/550 seed 42 fridge A kNN none fold 3 F1=0.3834 4.6s
+2026-10-16 08:15:29 [A] 134/550 seed 42 fridge A kNN none fold 4 F1=0.3467 3.6s
+2026-10-16 08:15:33 [A] 135/550 seed 42 fridge A kNN none fold 5 F1=0.2262 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:15:38 [A] 136/550 seed 42 fridge A kNN SMOTE fold 1 F1=0.3045 5.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:15:43 [A] 137/550 seed 42 fridge A kNN SMOTE fold 2 F1=0.3860 5.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:15:49 [A] 138/550 seed 42 fridge A kNN SMOTE fold 3 F1=0.3894 5.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:15:53 [A] 139/550 seed 42 fridge A kNN SMOTE fold 4 F1=0.3573 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:15:57 [A] 140/550 seed 42 fridge A kNN SMOTE fold 5 F1=0.2318 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:16:04 [A] 141/550 seed 42 fridge A kNN ADASYN fold 1 F1=0.3042 6.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:16:11 [A] 142/550 seed 42 fridge A kNN ADASYN fold 2 F1=0.3883 6.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:16:18 [A] 143/550 seed 42 fridge A kNN ADASYN fold 3 F1=0.3908 7.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:16:24 [A] 144/550 seed 42 fridge A kNN ADASYN fold 4 F1=0.3564 6.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:16:30 [A] 145/550 seed 42 fridge A kNN ADASYN fold 5 F1=0.2291 6.4s
+2026-10-16 08:16:45 [A] 146/550 seed 42 fridge A RandomForest none fold 1 F1=0.1036 14.8s
+2026-10-16 08:17:00 [A] 147/550 seed 42 fridge A RandomForest none fold 2 F1=0.1451 14.8s
+2026-10-16 08:17:15 [A] 148/550 seed 42 fridge A RandomForest none fold 3 F1=0.1514 14.8s
+2026-10-16 08:17:31 [A] 149/550 seed 42 fridge A RandomForest none fold 4 F1=0.1048 16.0s
+2026-10-16 08:17:47 [A] 150/550 seed 42 fridge A RandomForest none fold 5 F1=0.2124 16.6s
+2026-10-16 08:18:33 [A] 151/550 seed 42 fridge A RandomForest class_weight fold 1 F1=0.5041 45.4s
+2026-10-16 08:19:17 [A] 152/550 seed 42 fridge A RandomForest class_weight fold 2 F1=0.4220 43.9s
+2026-10-16 08:19:59 [A] 153/550 seed 42 fridge A RandomForest class_weight fold 3 F1=0.5360 41.9s
+2026-10-16 08:20:45 [A] 154/550 seed 42 fridge A RandomForest class_weight fold 4 F1=0.5530 45.9s
+2026-10-16 08:21:30 [A] 155/550 seed 42 fridge A RandomForest class_weight fold 5 F1=0.3034 45.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:22:34 [A] 156/550 seed 42 fridge A RandomForest SMOTE fold 1 F1=0.5052 64.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:23:36 [A] 157/550 seed 42 fridge A RandomForest SMOTE fold 2 F1=0.4192 61.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:24:40 [A] 158/550 seed 42 fridge A RandomForest SMOTE fold 3 F1=0.5345 64.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:25:51 [A] 159/550 seed 42 fridge A RandomForest SMOTE fold 4 F1=0.5512 71.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:26:57 [A] 160/550 seed 42 fridge A RandomForest SMOTE fold 5 F1=0.3039 65.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:28:01 [A] 161/550 seed 42 fridge A RandomForest ADASYN fold 1 F1=0.5215 64.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:29:02 [A] 162/550 seed 42 fridge A RandomForest ADASYN fold 2 F1=0.4279 60.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:30:06 [A] 163/550 seed 42 fridge A RandomForest ADASYN fold 3 F1=0.5292 64.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:31:11 [A] 164/550 seed 42 fridge A RandomForest ADASYN fold 4 F1=0.5317 65.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:32:20 [A] 165/550 seed 42 fridge A RandomForest ADASYN fold 5 F1=0.3007 68.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:26 [A] 166/550 seed 42 fridge B LightGBM none fold 1 F1=0.1991 4.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:30 [A] 167/550 seed 42 fridge B LightGBM none fold 2 F1=0.2159 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:34 [A] 168/550 seed 42 fridge B LightGBM none fold 3 F1=0.1704 4.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:39 [A] 169/550 seed 42 fridge B LightGBM none fold 4 F1=0.1248 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:43 [A] 170/550 seed 42 fridge B LightGBM none fold 5 F1=0.2836 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:45 [A] 171/550 seed 42 fridge B LightGBM class_weight fold 1 F1=0.5155 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:47 [A] 172/550 seed 42 fridge B LightGBM class_weight fold 2 F1=0.4497 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:49 [A] 173/550 seed 42 fridge B LightGBM class_weight fold 3 F1=0.5346 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:51 [A] 174/550 seed 42 fridge B LightGBM class_weight fold 4 F1=0.5832 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:32:53 [A] 175/550 seed 42 fridge B LightGBM class_weight fold 5 F1=0.2889 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:33:11 [A] 176/550 seed 42 fridge B LightGBM SMOTE fold 1 F1=0.2353 18.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:33:26 [A] 177/550 seed 42 fridge B LightGBM SMOTE fold 2 F1=0.3236 15.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:33:45 [A] 178/550 seed 42 fridge B LightGBM SMOTE fold 3 F1=0.1950 18.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:34:02 [A] 179/550 seed 42 fridge B LightGBM SMOTE fold 4 F1=0.1471 17.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:34:25 [A] 180/550 seed 42 fridge B LightGBM SMOTE fold 5 F1=0.2958 23.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:35:16 [A] 181/550 seed 42 fridge B LightGBM ADASYN fold 1 F1=0.2035 50.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:36:06 [A] 182/550 seed 42 fridge B LightGBM ADASYN fold 2 F1=0.2493 49.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:36:53 [A] 183/550 seed 42 fridge B LightGBM ADASYN fold 3 F1=0.1612 47.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:37:39 [A] 184/550 seed 42 fridge B LightGBM ADASYN fold 4 F1=0.1282 45.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 08:38:40 [A] 185/550 seed 42 fridge B LightGBM ADASYN fold 5 F1=0.2908 61.4s
+2026-10-16 08:39:12 [A] 186/550 seed 42 fridge B kNN none fold 1 F1=0.3426 31.6s
+2026-10-16 08:39:33 [A] 187/550 seed 42 fridge B kNN none fold 2 F1=0.3302 21.3s
+2026-10-16 08:40:05 [A] 188/550 seed 42 fridge B kNN none fold 3 F1=0.3642 31.6s
+2026-10-16 08:40:29 [A] 189/550 seed 42 fridge B kNN none fold 4 F1=0.3472 23.5s
+2026-10-16 08:40:51 [A] 190/550 seed 42 fridge B kNN none fold 5 F1=0.2387 22.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:41:51 [A] 191/550 seed 42 fridge B kNN SMOTE fold 1 F1=0.4189 59.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:42:29 [A] 192/550 seed 42 fridge B kNN SMOTE fold 2 F1=0.3910 38.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:43:32 [A] 193/550 seed 42 fridge B kNN SMOTE fold 3 F1=0.4379 62.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:44:26 [A] 194/550 seed 42 fridge B kNN SMOTE fold 4 F1=0.4475 53.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:45:25 [A] 195/550 seed 42 fridge B kNN SMOTE fold 5 F1=0.2624 58.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:46:54 [A] 196/550 seed 42 fridge B kNN ADASYN fold 1 F1=0.4146 89.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:48:03 [A] 197/550 seed 42 fridge B kNN ADASYN fold 2 F1=0.3962 69.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:49:26 [A] 198/550 seed 42 fridge B kNN ADASYN fold 3 F1=0.4290 82.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:51:08 [A] 199/550 seed 42 fridge B kNN ADASYN fold 4 F1=0.4672 101.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 08:53:02 [A] 200/550 seed 42 fridge B kNN ADASYN fold 5 F1=0.2593 114.3s
+2026-10-16 08:53:57 [A] 201/550 seed 42 fridge B RandomForest none fold 1 F1=0.1210 55.0s
+2026-10-16 08:54:51 [A] 202/550 seed 42 fridge B RandomForest none fold 2 F1=0.1871 53.3s
+2026-10-16 08:55:50 [A] 203/550 seed 42 fridge B RandomForest none fold 3 F1=0.1064 59.1s
+2026-10-16 08:56:55 [A] 204/550 seed 42 fridge B RandomForest none fold 4 F1=0.0715 64.8s
+2026-10-16 08:58:00 [A] 205/550 seed 42 fridge B RandomForest none fold 5 F1=0.2149 65.8s
+2026-10-16 08:58:59 [A] 206/550 seed 42 fridge B RandomForest class_weight fold 1 F1=0.5112 58.5s
+2026-10-16 08:59:56 [A] 207/550 seed 42 fridge B RandomForest class_weight fold 2 F1=0.4495 56.8s
+2026-10-16 09:00:53 [A] 208/550 seed 42 fridge B RandomForest class_weight fold 3 F1=0.5393 57.5s
+2026-10-16 09:01:54 [A] 209/550 seed 42 fridge B RandomForest class_weight fold 4 F1=0.5798 60.9s
+2026-10-16 09:02:58 [A] 210/550 seed 42 fridge B RandomForest class_weight fold 5 F1=0.2923 64.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:08:06 [A] 211/550 seed 42 fridge B RandomForest SMOTE fold 1 F1=0.4900 307.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:12:56 [A] 212/550 seed 42 fridge B RandomForest SMOTE fold 2 F1=0.4402 289.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:18:22 [A] 213/550 seed 42 fridge B RandomForest SMOTE fold 3 F1=0.5168 325.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:24:10 [A] 214/550 seed 42 fridge B RandomForest SMOTE fold 4 F1=0.5371 348.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:28:58 [A] 215/550 seed 42 fridge B RandomForest SMOTE fold 5 F1=0.2977 287.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:31:15 [A] 216/550 seed 42 fridge B RandomForest ADASYN fold 1 F1=0.4866 137.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:33:27 [A] 217/550 seed 42 fridge B RandomForest ADASYN fold 2 F1=0.4472 131.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:35:52 [A] 218/550 seed 42 fridge B RandomForest ADASYN fold 3 F1=0.5081 145.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:38:26 [A] 219/550 seed 42 fridge B RandomForest ADASYN fold 4 F1=0.5727 154.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:40:59 [A] 220/550 seed 42 fridge B RandomForest ADASYN fold 5 F1=0.2912 152.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:00 [A] 221/550 seed 42 kettle A LightGBM none fold 1 F1=0.0709 1.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:02 [A] 222/550 seed 42 kettle A LightGBM none fold 2 F1=0.0850 1.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:03 [A] 223/550 seed 42 kettle A LightGBM none fold 3 F1=0.0656 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:04 [A] 224/550 seed 42 kettle A LightGBM none fold 4 F1=0.2399 1.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:05 [A] 225/550 seed 42 kettle A LightGBM none fold 5 F1=0.1215 0.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:06 [A] 226/550 seed 42 kettle A LightGBM class_weight fold 1 F1=0.1905 1.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:07 [A] 227/550 seed 42 kettle A LightGBM class_weight fold 2 F1=0.2603 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:08 [A] 228/550 seed 42 kettle A LightGBM class_weight fold 3 F1=0.0580 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:09 [A] 229/550 seed 42 kettle A LightGBM class_weight fold 4 F1=0.1830 1.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:11 [A] 230/550 seed 42 kettle A LightGBM class_weight fold 5 F1=0.1669 1.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:13 [A] 231/550 seed 42 kettle A LightGBM SMOTE fold 1 F1=0.1683 2.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:15 [A] 232/550 seed 42 kettle A LightGBM SMOTE fold 2 F1=0.2585 2.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:17 [A] 233/550 seed 42 kettle A LightGBM SMOTE fold 3 F1=0.0544 1.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:19 [A] 234/550 seed 42 kettle A LightGBM SMOTE fold 4 F1=0.1904 1.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:21 [A] 235/550 seed 42 kettle A LightGBM SMOTE fold 5 F1=0.1693 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:23 [A] 236/550 seed 42 kettle A LightGBM ADASYN fold 1 F1=0.1523 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:27 [A] 237/550 seed 42 kettle A LightGBM ADASYN fold 2 F1=0.2437 3.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:30 [A] 238/550 seed 42 kettle A LightGBM ADASYN fold 3 F1=0.0498 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:33 [A] 239/550 seed 42 kettle A LightGBM ADASYN fold 4 F1=0.1748 3.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:41:37 [A] 240/550 seed 42 kettle A LightGBM ADASYN fold 5 F1=0.1530 3.4s
+2026-10-16 09:41:41 [A] 241/550 seed 42 kettle A kNN none fold 1 F1=0.1343 4.4s
+2026-10-16 09:41:45 [A] 242/550 seed 42 kettle A kNN none fold 2 F1=0.2563 3.5s
+2026-10-16 09:41:48 [A] 243/550 seed 42 kettle A kNN none fold 3 F1=0.0986 3.5s
+2026-10-16 09:41:52 [A] 244/550 seed 42 kettle A kNN none fold 4 F1=0.3061 3.5s
+2026-10-16 09:41:55 [A] 245/550 seed 42 kettle A kNN none fold 5 F1=0.1451 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:00 [A] 246/550 seed 42 kettle A kNN SMOTE fold 1 F1=0.1809 5.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:04 [A] 247/550 seed 42 kettle A kNN SMOTE fold 2 F1=0.3377 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:08 [A] 248/550 seed 42 kettle A kNN SMOTE fold 3 F1=0.0904 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:12 [A] 249/550 seed 42 kettle A kNN SMOTE fold 4 F1=0.2869 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:16 [A] 250/550 seed 42 kettle A kNN SMOTE fold 5 F1=0.1720 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:21 [A] 251/550 seed 42 kettle A kNN ADASYN fold 1 F1=0.1766 4.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:25 [A] 252/550 seed 42 kettle A kNN ADASYN fold 2 F1=0.3299 3.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:29 [A] 253/550 seed 42 kettle A kNN ADASYN fold 3 F1=0.0883 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:32 [A] 254/550 seed 42 kettle A kNN ADASYN fold 4 F1=0.2841 3.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:42:36 [A] 255/550 seed 42 kettle A kNN ADASYN fold 5 F1=0.1695 3.8s
+2026-10-16 09:42:49 [A] 256/550 seed 42 kettle A RandomForest none fold 1 F1=0.0780 12.7s
+2026-10-16 09:43:04 [A] 257/550 seed 42 kettle A RandomForest none fold 2 F1=0.1703 15.4s
+2026-10-16 09:43:19 [A] 258/550 seed 42 kettle A RandomForest none fold 3 F1=0.0676 14.2s
+2026-10-16 09:43:34 [A] 259/550 seed 42 kettle A RandomForest none fold 4 F1=0.2370 15.1s
+2026-10-16 09:43:50 [A] 260/550 seed 42 kettle A RandomForest none fold 5 F1=0.1067 16.0s
+2026-10-16 09:44:26 [A] 261/550 seed 42 kettle A RandomForest class_weight fold 1 F1=0.2501 36.4s
+2026-10-16 09:45:07 [A] 262/550 seed 42 kettle A RandomForest class_weight fold 2 F1=0.3372 40.5s
+2026-10-16 09:45:47 [A] 263/550 seed 42 kettle A RandomForest class_weight fold 3 F1=0.0835 40.4s
+2026-10-16 09:46:28 [A] 264/550 seed 42 kettle A RandomForest class_weight fold 4 F1=0.2391 41.1s
+2026-10-16 09:47:12 [A] 265/550 seed 42 kettle A RandomForest class_weight fold 5 F1=0.1961 44.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:47:48 [A] 266/550 seed 42 kettle A RandomForest SMOTE fold 1 F1=0.1825 35.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:48:27 [A] 267/550 seed 42 kettle A RandomForest SMOTE fold 2 F1=0.2605 38.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:49:03 [A] 268/550 seed 42 kettle A RandomForest SMOTE fold 3 F1=0.0616 36.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:49:42 [A] 269/550 seed 42 kettle A RandomForest SMOTE fold 4 F1=0.2042 38.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:50:22 [A] 270/550 seed 42 kettle A RandomForest SMOTE fold 5 F1=0.1577 39.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:51:53 [A] 271/550 seed 42 kettle A RandomForest ADASYN fold 1 F1=0.1653 90.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:53:31 [A] 272/550 seed 42 kettle A RandomForest ADASYN fold 2 F1=0.2392 98.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:55:04 [A] 273/550 seed 42 kettle A RandomForest ADASYN fold 3 F1=0.0553 93.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:56:34 [A] 274/550 seed 42 kettle A RandomForest ADASYN fold 4 F1=0.1758 89.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 09:58:03 [A] 275/550 seed 42 kettle A RandomForest ADASYN fold 5 F1=0.1409 88.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:05 [A] 276/550 seed 42 kettle B LightGBM none fold 1 F1=0.2650 1.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:07 [A] 277/550 seed 42 kettle B LightGBM none fold 2 F1=0.5770 2.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:09 [A] 278/550 seed 42 kettle B LightGBM none fold 3 F1=0.2569 2.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:11 [A] 279/550 seed 42 kettle B LightGBM none fold 4 F1=0.5450 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:13 [A] 280/550 seed 42 kettle B LightGBM none fold 5 F1=0.3852 1.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:18 [A] 281/550 seed 42 kettle B LightGBM class_weight fold 1 F1=0.2552 5.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:22 [A] 282/550 seed 42 kettle B LightGBM class_weight fold 2 F1=0.3450 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:26 [A] 283/550 seed 42 kettle B LightGBM class_weight fold 3 F1=0.1272 3.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:30 [A] 284/550 seed 42 kettle B LightGBM class_weight fold 4 F1=0.2687 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:36 [A] 285/550 seed 42 kettle B LightGBM class_weight fold 5 F1=0.2771 5.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:48 [A] 286/550 seed 42 kettle B LightGBM SMOTE fold 1 F1=0.3474 11.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:58:59 [A] 287/550 seed 42 kettle B LightGBM SMOTE fold 2 F1=0.7078 10.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:07 [A] 288/550 seed 42 kettle B LightGBM SMOTE fold 3 F1=0.2354 8.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:16 [A] 289/550 seed 42 kettle B LightGBM SMOTE fold 4 F1=0.6253 8.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:27 [A] 290/550 seed 42 kettle B LightGBM SMOTE fold 5 F1=0.4774 11.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:39 [A] 291/550 seed 42 kettle B LightGBM ADASYN fold 1 F1=0.3485 12.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:50 [A] 292/550 seed 42 kettle B LightGBM ADASYN fold 2 F1=0.6814 10.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 09:59:58 [A] 293/550 seed 42 kettle B LightGBM ADASYN fold 3 F1=0.2347 8.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 10:00:11 [A] 294/550 seed 42 kettle B LightGBM ADASYN fold 4 F1=0.6123 12.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 10:00:23 [A] 295/550 seed 42 kettle B LightGBM ADASYN fold 5 F1=0.4505 11.5s
+2026-10-16 10:01:05 [A] 296/550 seed 42 kettle B kNN none fold 1 F1=0.3269 42.1s
+2026-10-16 10:01:37 [A] 297/550 seed 42 kettle B kNN none fold 2 F1=0.6816 32.6s
+2026-10-16 10:02:07 [A] 298/550 seed 42 kettle B kNN none fold 3 F1=0.2545 29.6s
+2026-10-16 10:02:54 [A] 299/550 seed 42 kettle B kNN none fold 4 F1=0.6150 47.2s
+2026-10-16 10:03:27 [A] 300/550 seed 42 kettle B kNN none fold 5 F1=0.4751 32.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:03:49 [A] 301/550 seed 42 kettle B kNN SMOTE fold 1 F1=0.2371 22.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:04:08 [A] 302/550 seed 42 kettle B kNN SMOTE fold 2 F1=0.4076 19.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:04:26 [A] 303/550 seed 42 kettle B kNN SMOTE fold 3 F1=0.1085 18.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:04:42 [A] 304/550 seed 42 kettle B kNN SMOTE fold 4 F1=0.3050 15.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:04:59 [A] 305/550 seed 42 kettle B kNN SMOTE fold 5 F1=0.2353 16.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:05:23 [A] 306/550 seed 42 kettle B kNN ADASYN fold 1 F1=0.2232 24.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:05:39 [A] 307/550 seed 42 kettle B kNN ADASYN fold 2 F1=0.3916 16.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:05:57 [A] 308/550 seed 42 kettle B kNN ADASYN fold 3 F1=0.1017 18.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:06:15 [A] 309/550 seed 42 kettle B kNN ADASYN fold 4 F1=0.2877 17.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:06:30 [A] 310/550 seed 42 kettle B kNN ADASYN fold 5 F1=0.2205 15.4s
+2026-10-16 10:08:55 [A] 311/550 seed 42 kettle B RandomForest none fold 1 F1=0.2855 144.7s
+2026-10-16 10:11:23 [A] 312/550 seed 42 kettle B RandomForest none fold 2 F1=0.6691 148.5s
+2026-10-16 10:13:46 [A] 313/550 seed 42 kettle B RandomForest none fold 3 F1=0.2480 142.5s
+2026-10-16 10:16:08 [A] 314/550 seed 42 kettle B RandomForest none fold 4 F1=0.6084 141.9s
+2026-10-16 10:18:30 [A] 315/550 seed 42 kettle B RandomForest none fold 5 F1=0.4731 142.4s
+2026-10-16 10:19:11 [A] 316/550 seed 42 kettle B RandomForest class_weight fold 1 F1=0.2723 41.1s
+2026-10-16 10:19:54 [A] 317/550 seed 42 kettle B RandomForest class_weight fold 2 F1=0.4281 42.8s
+2026-10-16 10:20:37 [A] 318/550 seed 42 kettle B RandomForest class_weight fold 3 F1=0.1619 43.2s
+2026-10-16 10:21:22 [A] 319/550 seed 42 kettle B RandomForest class_weight fold 4 F1=0.3435 45.3s
+2026-10-16 10:22:06 [A] 320/550 seed 42 kettle B RandomForest class_weight fold 5 F1=0.3108 43.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:24:37 [A] 321/550 seed 42 kettle B RandomForest SMOTE fold 1 F1=0.2543 150.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:27:19 [A] 322/550 seed 42 kettle B RandomForest SMOTE fold 2 F1=0.3658 162.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:29:56 [A] 323/550 seed 42 kettle B RandomForest SMOTE fold 3 F1=0.1178 157.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:32:34 [A] 324/550 seed 42 kettle B RandomForest SMOTE fold 4 F1=0.2916 157.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:35:31 [A] 325/550 seed 42 kettle B RandomForest SMOTE fold 5 F1=0.2777 177.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:42:49 [A] 326/550 seed 42 kettle B RandomForest ADASYN fold 1 F1=0.2249 438.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:50:04 [A] 327/550 seed 42 kettle B RandomForest ADASYN fold 2 F1=0.3287 435.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 10:57:21 [A] 328/550 seed 42 kettle B RandomForest ADASYN fold 3 F1=0.0858 437.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:04:33 [A] 329/550 seed 42 kettle B RandomForest ADASYN fold 4 F1=0.2533 431.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:11:33 [A] 330/550 seed 42 kettle B RandomForest ADASYN fold 5 F1=0.2329 420.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:34 [A] 331/550 seed 42 microwave A LightGBM none fold 1 F1=0.0000 1.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:36 [A] 332/550 seed 42 microwave A LightGBM none fold 2 F1=0.0000 1.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:38 [A] 333/550 seed 42 microwave A LightGBM none fold 3 F1=0.0000 1.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:39 [A] 334/550 seed 42 microwave A LightGBM none fold 4 F1=0.0000 1.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:40 [A] 335/550 seed 42 microwave A LightGBM none fold 5 F1=0.0043 1.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:42 [A] 336/550 seed 42 microwave A LightGBM class_weight fold 1 F1=0.1095 1.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:43 [A] 337/550 seed 42 microwave A LightGBM class_weight fold 2 F1=0.1137 1.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:45 [A] 338/550 seed 42 microwave A LightGBM class_weight fold 3 F1=0.0844 1.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:46 [A] 339/550 seed 42 microwave A LightGBM class_weight fold 4 F1=0.1083 1.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:48 [A] 340/550 seed 42 microwave A LightGBM class_weight fold 5 F1=0.0291 1.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:50 [A] 341/550 seed 42 microwave A LightGBM SMOTE fold 1 F1=0.1097 2.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:54 [A] 342/550 seed 42 microwave A LightGBM SMOTE fold 2 F1=0.1133 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:11:58 [A] 343/550 seed 42 microwave A LightGBM SMOTE fold 3 F1=0.0881 3.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:01 [A] 344/550 seed 42 microwave A LightGBM SMOTE fold 4 F1=0.1064 3.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:04 [A] 345/550 seed 42 microwave A LightGBM SMOTE fold 5 F1=0.0263 3.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:08 [A] 346/550 seed 42 microwave A LightGBM ADASYN fold 1 F1=0.1102 3.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:11 [A] 347/550 seed 42 microwave A LightGBM ADASYN fold 2 F1=0.1165 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:15 [A] 348/550 seed 42 microwave A LightGBM ADASYN fold 3 F1=0.0831 3.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:18 [A] 349/550 seed 42 microwave A LightGBM ADASYN fold 4 F1=0.0916 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:12:22 [A] 350/550 seed 42 microwave A LightGBM ADASYN fold 5 F1=0.0264 4.0s
+2026-10-16 11:12:27 [A] 351/550 seed 42 microwave A kNN none fold 1 F1=0.0583 4.7s
+2026-10-16 11:12:30 [A] 352/550 seed 42 microwave A kNN none fold 2 F1=0.0772 3.5s
+2026-10-16 11:12:34 [A] 353/550 seed 42 microwave A kNN none fold 3 F1=0.0621 3.5s
+2026-10-16 11:12:37 [A] 354/550 seed 42 microwave A kNN none fold 4 F1=0.0498 3.5s
+2026-10-16 11:12:41 [A] 355/550 seed 42 microwave A kNN none fold 5 F1=0.0452 3.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:12:46 [A] 356/550 seed 42 microwave A kNN SMOTE fold 1 F1=0.1373 5.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:12:50 [A] 357/550 seed 42 microwave A kNN SMOTE fold 2 F1=0.1405 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:12:54 [A] 358/550 seed 42 microwave A kNN SMOTE fold 3 F1=0.0903 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:12:58 [A] 359/550 seed 42 microwave A kNN SMOTE fold 4 F1=0.1429 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:02 [A] 360/550 seed 42 microwave A kNN SMOTE fold 5 F1=0.0372 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:07 [A] 361/550 seed 42 microwave A kNN ADASYN fold 1 F1=0.1386 5.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:11 [A] 362/550 seed 42 microwave A kNN ADASYN fold 2 F1=0.1435 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:15 [A] 363/550 seed 42 microwave A kNN ADASYN fold 3 F1=0.0890 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:19 [A] 364/550 seed 42 microwave A kNN ADASYN fold 4 F1=0.1350 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:13:23 [A] 365/550 seed 42 microwave A kNN ADASYN fold 5 F1=0.0366 3.8s
+2026-10-16 11:13:56 [A] 366/550 seed 42 microwave A RandomForest none fold 1 F1=0.0079 32.9s
+2026-10-16 11:14:32 [A] 367/550 seed 42 microwave A RandomForest none fold 2 F1=0.0000 35.6s
+2026-10-16 11:15:07 [A] 368/550 seed 42 microwave A RandomForest none fold 3 F1=0.0247 35.5s
+2026-10-16 11:15:41 [A] 369/550 seed 42 microwave A RandomForest none fold 4 F1=0.0022 33.4s
+2026-10-16 11:16:14 [A] 370/550 seed 42 microwave A RandomForest none fold 5 F1=0.0051 33.0s
+2026-10-16 11:16:24 [A] 371/550 seed 42 microwave A RandomForest class_weight fold 1 F1=0.1538 10.2s
+2026-10-16 11:16:35 [A] 372/550 seed 42 microwave A RandomForest class_weight fold 2 F1=0.1305 11.4s
+2026-10-16 11:16:47 [A] 373/550 seed 42 microwave A RandomForest class_weight fold 3 F1=0.1065 11.6s
+2026-10-16 11:16:58 [A] 374/550 seed 42 microwave A RandomForest class_weight fold 4 F1=0.1436 11.2s
+2026-10-16 11:17:09 [A] 375/550 seed 42 microwave A RandomForest class_weight fold 5 F1=0.0330 11.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:18:29 [A] 376/550 seed 42 microwave A RandomForest SMOTE fold 1 F1=0.1191 79.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:19:56 [A] 377/550 seed 42 microwave A RandomForest SMOTE fold 2 F1=0.1170 87.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:21:21 [A] 378/550 seed 42 microwave A RandomForest SMOTE fold 3 F1=0.0871 85.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:22:42 [A] 379/550 seed 42 microwave A RandomForest SMOTE fold 4 F1=0.1089 80.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:24:10 [A] 380/550 seed 42 microwave A RandomForest SMOTE fold 5 F1=0.0269 87.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:25:23 [A] 381/550 seed 42 microwave A RandomForest ADASYN fold 1 F1=0.1154 72.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:26:42 [A] 382/550 seed 42 microwave A RandomForest ADASYN fold 2 F1=0.1123 79.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:28:01 [A] 383/550 seed 42 microwave A RandomForest ADASYN fold 3 F1=0.0848 79.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:29:18 [A] 384/550 seed 42 microwave A RandomForest ADASYN fold 4 F1=0.1072 77.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:30:40 [A] 385/550 seed 42 microwave A RandomForest ADASYN fold 5 F1=0.0256 81.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:30:45 [A] 386/550 seed 42 microwave B LightGBM none fold 1 F1=0.1104 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:30:49 [A] 387/550 seed 42 microwave B LightGBM none fold 2 F1=0.1803 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:30:54 [A] 388/550 seed 42 microwave B LightGBM none fold 3 F1=0.1337 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:30:58 [A] 389/550 seed 42 microwave B LightGBM none fold 4 F1=0.1565 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:03 [A] 390/550 seed 42 microwave B LightGBM none fold 5 F1=0.1125 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:08 [A] 391/550 seed 42 microwave B LightGBM class_weight fold 1 F1=0.1673 5.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:13 [A] 392/550 seed 42 microwave B LightGBM class_weight fold 2 F1=0.1814 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:17 [A] 393/550 seed 42 microwave B LightGBM class_weight fold 3 F1=0.1568 4.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:21 [A] 394/550 seed 42 microwave B LightGBM class_weight fold 4 F1=0.2327 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:26 [A] 395/550 seed 42 microwave B LightGBM class_weight fold 5 F1=0.0550 5.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:35 [A] 396/550 seed 42 microwave B LightGBM SMOTE fold 1 F1=0.2313 8.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:43 [A] 397/550 seed 42 microwave B LightGBM SMOTE fold 2 F1=0.2918 7.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:31:51 [A] 398/550 seed 42 microwave B LightGBM SMOTE fold 3 F1=0.2251 8.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:01 [A] 399/550 seed 42 microwave B LightGBM SMOTE fold 4 F1=0.3080 10.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:09 [A] 400/550 seed 42 microwave B LightGBM SMOTE fold 5 F1=0.1612 8.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:18 [A] 401/550 seed 42 microwave B LightGBM ADASYN fold 1 F1=0.2142 8.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:28 [A] 402/550 seed 42 microwave B LightGBM ADASYN fold 2 F1=0.2965 10.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:37 [A] 403/550 seed 42 microwave B LightGBM ADASYN fold 3 F1=0.2329 9.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:45 [A] 404/550 seed 42 microwave B LightGBM ADASYN fold 4 F1=0.2810 8.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 11:32:55 [A] 405/550 seed 42 microwave B LightGBM ADASYN fold 5 F1=0.1516 9.5s
+2026-10-16 11:33:15 [A] 406/550 seed 42 microwave B kNN none fold 1 F1=0.1146 20.3s
+2026-10-16 11:33:39 [A] 407/550 seed 42 microwave B kNN none fold 2 F1=0.2189 23.9s
+2026-10-16 11:33:59 [A] 408/550 seed 42 microwave B kNN none fold 3 F1=0.1412 19.6s
+2026-10-16 11:34:22 [A] 409/550 seed 42 microwave B kNN none fold 4 F1=0.1644 22.7s
+2026-10-16 11:34:43 [A] 410/550 seed 42 microwave B kNN none fold 5 F1=0.1383 21.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:35:03 [A] 411/550 seed 42 microwave B kNN SMOTE fold 1 F1=0.1668 20.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:35:21 [A] 412/550 seed 42 microwave B kNN SMOTE fold 2 F1=0.1861 17.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:35:36 [A] 413/550 seed 42 microwave B kNN SMOTE fold 3 F1=0.1458 15.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:35:55 [A] 414/550 seed 42 microwave B kNN SMOTE fold 4 F1=0.2135 18.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:36:12 [A] 415/550 seed 42 microwave B kNN SMOTE fold 5 F1=0.0540 17.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:36:33 [A] 416/550 seed 42 microwave B kNN ADASYN fold 1 F1=0.1665 20.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:36:52 [A] 417/550 seed 42 microwave B kNN ADASYN fold 2 F1=0.1858 18.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:37:08 [A] 418/550 seed 42 microwave B kNN ADASYN fold 3 F1=0.1436 15.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:37:26 [A] 419/550 seed 42 microwave B kNN ADASYN fold 4 F1=0.2140 18.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:37:45 [A] 420/550 seed 42 microwave B kNN ADASYN fold 5 F1=0.0536 19.2s
+2026-10-16 11:38:32 [A] 421/550 seed 42 microwave B RandomForest none fold 1 F1=0.0383 46.6s
+2026-10-16 11:39:22 [A] 422/550 seed 42 microwave B RandomForest none fold 2 F1=0.0890 50.4s
+2026-10-16 11:40:13 [A] 423/550 seed 42 microwave B RandomForest none fold 3 F1=0.0525 50.3s
+2026-10-16 11:41:02 [A] 424/550 seed 42 microwave B RandomForest none fold 4 F1=0.0829 49.2s
+2026-10-16 11:41:53 [A] 425/550 seed 42 microwave B RandomForest none fold 5 F1=0.0911 50.8s
+2026-10-16 11:42:35 [A] 426/550 seed 42 microwave B RandomForest class_weight fold 1 F1=0.1678 42.3s
+2026-10-16 11:43:16 [A] 427/550 seed 42 microwave B RandomForest class_weight fold 2 F1=0.1591 41.0s
+2026-10-16 11:43:57 [A] 428/550 seed 42 microwave B RandomForest class_weight fold 3 F1=0.1303 40.6s
+2026-10-16 11:44:36 [A] 429/550 seed 42 microwave B RandomForest class_weight fold 4 F1=0.2305 39.0s
+2026-10-16 11:45:15 [A] 430/550 seed 42 microwave B RandomForest class_weight fold 5 F1=0.0484 39.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:47:36 [A] 431/550 seed 42 microwave B RandomForest SMOTE fold 1 F1=0.1494 140.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:50:18 [A] 432/550 seed 42 microwave B RandomForest SMOTE fold 2 F1=0.1299 161.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:52:59 [A] 433/550 seed 42 microwave B RandomForest SMOTE fold 3 F1=0.1268 160.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:55:35 [A] 434/550 seed 42 microwave B RandomForest SMOTE fold 4 F1=0.1922 156.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 11:58:14 [A] 435/550 seed 42 microwave B RandomForest SMOTE fold 5 F1=0.0410 159.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:04:53 [A] 436/550 seed 42 microwave B RandomForest ADASYN fold 1 F1=0.1425 398.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:12:07 [A] 437/550 seed 42 microwave B RandomForest ADASYN fold 2 F1=0.1226 434.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:19:21 [A] 438/550 seed 42 microwave B RandomForest ADASYN fold 3 F1=0.1205 434.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:26:37 [A] 439/550 seed 42 microwave B RandomForest ADASYN fold 4 F1=0.1813 435.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:33:57 [A] 440/550 seed 42 microwave B RandomForest ADASYN fold 5 F1=0.0390 440.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:01 [A] 441/550 seed 42 washing_machine A LightGBM none fold 1 F1=0.0133 3.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:04 [A] 442/550 seed 42 washing_machine A LightGBM none fold 2 F1=0.0214 3.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:07 [A] 443/550 seed 42 washing_machine A LightGBM none fold 3 F1=0.0084 3.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:10 [A] 444/550 seed 42 washing_machine A LightGBM none fold 4 F1=0.0251 3.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:13 [A] 445/550 seed 42 washing_machine A LightGBM none fold 5 F1=0.0199 3.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:16 [A] 446/550 seed 42 washing_machine A LightGBM class_weight fold 1 F1=0.1710 3.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:20 [A] 447/550 seed 42 washing_machine A LightGBM class_weight fold 2 F1=0.1700 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:23 [A] 448/550 seed 42 washing_machine A LightGBM class_weight fold 3 F1=0.1891 3.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:26 [A] 449/550 seed 42 washing_machine A LightGBM class_weight fold 4 F1=0.2053 3.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:30 [A] 450/550 seed 42 washing_machine A LightGBM class_weight fold 5 F1=0.1472 3.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:32 [A] 451/550 seed 42 washing_machine A LightGBM SMOTE fold 1 F1=0.1750 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:35 [A] 452/550 seed 42 washing_machine A LightGBM SMOTE fold 2 F1=0.1694 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:37 [A] 453/550 seed 42 washing_machine A LightGBM SMOTE fold 3 F1=0.1925 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:40 [A] 454/550 seed 42 washing_machine A LightGBM SMOTE fold 4 F1=0.2065 2.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:42 [A] 455/550 seed 42 washing_machine A LightGBM SMOTE fold 5 F1=0.1481 2.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:45 [A] 456/550 seed 42 washing_machine A LightGBM ADASYN fold 1 F1=0.1614 2.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:48 [A] 457/550 seed 42 washing_machine A LightGBM ADASYN fold 2 F1=0.1580 2.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:50 [A] 458/550 seed 42 washing_machine A LightGBM ADASYN fold 3 F1=0.1720 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:53 [A] 459/550 seed 42 washing_machine A LightGBM ADASYN fold 4 F1=0.1974 2.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:34:56 [A] 460/550 seed 42 washing_machine A LightGBM ADASYN fold 5 F1=0.1429 2.6s
+2026-10-16 12:35:00 [A] 461/550 seed 42 washing_machine A kNN none fold 1 F1=0.1166 4.5s
+2026-10-16 12:35:05 [A] 462/550 seed 42 washing_machine A kNN none fold 2 F1=0.0849 4.6s
+2026-10-16 12:35:09 [A] 463/550 seed 42 washing_machine A kNN none fold 3 F1=0.1280 4.5s
+2026-10-16 12:35:13 [A] 464/550 seed 42 washing_machine A kNN none fold 4 F1=0.1038 3.5s
+2026-10-16 12:35:17 [A] 465/550 seed 42 washing_machine A kNN none fold 5 F1=0.0952 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:23 [A] 466/550 seed 42 washing_machine A kNN SMOTE fold 1 F1=0.2231 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:29 [A] 467/550 seed 42 washing_machine A kNN SMOTE fold 2 F1=0.1949 5.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:34 [A] 468/550 seed 42 washing_machine A kNN SMOTE fold 3 F1=0.2435 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:38 [A] 469/550 seed 42 washing_machine A kNN SMOTE fold 4 F1=0.2127 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:44 [A] 470/550 seed 42 washing_machine A kNN SMOTE fold 5 F1=0.1751 5.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:50 [A] 471/550 seed 42 washing_machine A kNN ADASYN fold 1 F1=0.2222 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:35:55 [A] 472/550 seed 42 washing_machine A kNN ADASYN fold 2 F1=0.1945 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:36:01 [A] 473/550 seed 42 washing_machine A kNN ADASYN fold 3 F1=0.2410 5.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:36:05 [A] 474/550 seed 42 washing_machine A kNN ADASYN fold 4 F1=0.2123 4.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:36:11 [A] 475/550 seed 42 washing_machine A kNN ADASYN fold 5 F1=0.1729 5.5s
+2026-10-16 12:36:27 [A] 476/550 seed 42 washing_machine A RandomForest none fold 1 F1=0.0296 16.4s
+2026-10-16 12:36:43 [A] 477/550 seed 42 washing_machine A RandomForest none fold 2 F1=0.0394 16.2s
+2026-10-16 12:36:58 [A] 478/550 seed 42 washing_machine A RandomForest none fold 3 F1=0.0384 15.1s
+2026-10-16 12:37:14 [A] 479/550 seed 42 washing_machine A RandomForest none fold 4 F1=0.0474 15.6s
+2026-10-16 12:37:29 [A] 480/550 seed 42 washing_machine A RandomForest none fold 5 F1=0.0380 14.5s
+2026-10-16 12:38:12 [A] 481/550 seed 42 washing_machine A RandomForest class_weight fold 1 F1=0.1790 43.6s
+2026-10-16 12:38:59 [A] 482/550 seed 42 washing_machine A RandomForest class_weight fold 2 F1=0.1705 46.7s
+2026-10-16 12:39:45 [A] 483/550 seed 42 washing_machine A RandomForest class_weight fold 3 F1=0.2001 46.4s
+2026-10-16 12:40:36 [A] 484/550 seed 42 washing_machine A RandomForest class_weight fold 4 F1=0.2155 50.3s
+2026-10-16 12:41:22 [A] 485/550 seed 42 washing_machine A RandomForest class_weight fold 5 F1=0.1554 46.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:42:01 [A] 486/550 seed 42 washing_machine A RandomForest SMOTE fold 1 F1=0.1733 38.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:42:40 [A] 487/550 seed 42 washing_machine A RandomForest SMOTE fold 2 F1=0.1661 39.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:43:19 [A] 488/550 seed 42 washing_machine A RandomForest SMOTE fold 3 F1=0.1882 39.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:44:01 [A] 489/550 seed 42 washing_machine A RandomForest SMOTE fold 4 F1=0.2075 41.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:44:41 [A] 490/550 seed 42 washing_machine A RandomForest SMOTE fold 5 F1=0.1472 39.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:45:14 [A] 491/550 seed 42 washing_machine A RandomForest ADASYN fold 1 F1=0.1623 33.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:45:48 [A] 492/550 seed 42 washing_machine A RandomForest ADASYN fold 2 F1=0.1557 33.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:46:22 [A] 493/550 seed 42 washing_machine A RandomForest ADASYN fold 3 F1=0.1730 33.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:46:58 [A] 494/550 seed 42 washing_machine A RandomForest ADASYN fold 4 F1=0.1935 36.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:47:29 [A] 495/550 seed 42 washing_machine A RandomForest ADASYN fold 5 F1=0.1419 31.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:34 [A] 496/550 seed 42 washing_machine B LightGBM none fold 1 F1=0.5438 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:39 [A] 497/550 seed 42 washing_machine B LightGBM none fold 2 F1=0.2870 4.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:43 [A] 498/550 seed 42 washing_machine B LightGBM none fold 3 F1=0.4412 4.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:47 [A] 499/550 seed 42 washing_machine B LightGBM none fold 4 F1=0.5015 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:51 [A] 500/550 seed 42 washing_machine B LightGBM none fold 5 F1=0.5266 4.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:47:56 [A] 501/550 seed 42 washing_machine B LightGBM class_weight fold 1 F1=0.3136 4.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:01 [A] 502/550 seed 42 washing_machine B LightGBM class_weight fold 2 F1=0.3949 4.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:05 [A] 503/550 seed 42 washing_machine B LightGBM class_weight fold 3 F1=0.4002 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:10 [A] 504/550 seed 42 washing_machine B LightGBM class_weight fold 4 F1=0.4207 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:14 [A] 505/550 seed 42 washing_machine B LightGBM class_weight fold 5 F1=0.3071 4.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:24 [A] 506/550 seed 42 washing_machine B LightGBM SMOTE fold 1 F1=0.5517 9.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:33 [A] 507/550 seed 42 washing_machine B LightGBM SMOTE fold 2 F1=0.3779 9.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:43 [A] 508/550 seed 42 washing_machine B LightGBM SMOTE fold 3 F1=0.5110 9.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:48:53 [A] 509/550 seed 42 washing_machine B LightGBM SMOTE fold 4 F1=0.5634 9.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:49:02 [A] 510/550 seed 42 washing_machine B LightGBM SMOTE fold 5 F1=0.4947 9.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:49:15 [A] 511/550 seed 42 washing_machine B LightGBM ADASYN fold 1 F1=0.5369 12.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:49:25 [A] 512/550 seed 42 washing_machine B LightGBM ADASYN fold 2 F1=0.3657 10.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:49:38 [A] 513/550 seed 42 washing_machine B LightGBM ADASYN fold 3 F1=0.5092 12.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:49:51 [A] 514/550 seed 42 washing_machine B LightGBM ADASYN fold 4 F1=0.5608 12.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+2026-10-16 12:50:02 [A] 515/550 seed 42 washing_machine B LightGBM ADASYN fold 5 F1=0.5014 11.9s
+2026-10-16 12:50:38 [A] 516/550 seed 42 washing_machine B kNN none fold 1 F1=0.4615 35.3s
+2026-10-16 12:51:14 [A] 517/550 seed 42 washing_machine B kNN none fold 2 F1=0.3084 36.0s
+2026-10-16 12:51:45 [A] 518/550 seed 42 washing_machine B kNN none fold 3 F1=0.3736 31.1s
+2026-10-16 12:52:07 [A] 519/550 seed 42 washing_machine B kNN none fold 4 F1=0.4140 22.1s
+2026-10-16 12:52:39 [A] 520/550 seed 42 washing_machine B kNN none fold 5 F1=0.4139 32.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:53:11 [A] 521/550 seed 42 washing_machine B kNN SMOTE fold 1 F1=0.3397 31.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:53:40 [A] 522/550 seed 42 washing_machine B kNN SMOTE fold 2 F1=0.3449 29.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:54:07 [A] 523/550 seed 42 washing_machine B kNN SMOTE fold 3 F1=0.3888 26.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:54:32 [A] 524/550 seed 42 washing_machine B kNN SMOTE fold 4 F1=0.4026 25.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:55:08 [A] 525/550 seed 42 washing_machine B kNN SMOTE fold 5 F1=0.3209 36.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:55:34 [A] 526/550 seed 42 washing_machine B kNN ADASYN fold 1 F1=0.3398 26.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:55:57 [A] 527/550 seed 42 washing_machine B kNN ADASYN fold 2 F1=0.3310 22.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:56:18 [A] 528/550 seed 42 washing_machine B kNN ADASYN fold 3 F1=0.3708 21.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:56:39 [A] 529/550 seed 42 washing_machine B kNN ADASYN fold 4 F1=0.4074 21.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 12:57:07 [A] 530/550 seed 42 washing_machine B kNN ADASYN fold 5 F1=0.3162 27.4s
+2026-10-16 12:59:37 [A] 531/550 seed 42 washing_machine B RandomForest none fold 1 F1=0.4596 150.8s
+2026-10-16 13:02:08 [A] 532/550 seed 42 washing_machine B RandomForest none fold 2 F1=0.3299 151.0s
+2026-10-16 13:04:39 [A] 533/550 seed 42 washing_machine B RandomForest none fold 3 F1=0.3519 150.3s
+2026-10-16 13:07:20 [A] 534/550 seed 42 washing_machine B RandomForest none fold 4 F1=0.4307 160.8s
+2026-10-16 13:09:50 [A] 535/550 seed 42 washing_machine B RandomForest none fold 5 F1=0.4599 150.9s
+2026-10-16 13:10:40 [A] 536/550 seed 42 washing_machine B RandomForest class_weight fold 1 F1=0.3270 49.5s
+2026-10-16 13:11:29 [A] 537/550 seed 42 washing_machine B RandomForest class_weight fold 2 F1=0.3817 49.2s
+2026-10-16 13:12:19 [A] 538/550 seed 42 washing_machine B RandomForest class_weight fold 3 F1=0.3858 49.4s
+2026-10-16 13:13:11 [A] 539/550 seed 42 washing_machine B RandomForest class_weight fold 4 F1=0.4306 52.5s
+2026-10-16 13:14:00 [A] 540/550 seed 42 washing_machine B RandomForest class_weight fold 5 F1=0.3144 49.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:22:08 [A] 541/550 seed 42 washing_machine B RandomForest SMOTE fold 1 F1=0.3199 487.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:30:22 [A] 542/550 seed 42 washing_machine B RandomForest SMOTE fold 2 F1=0.3627 493.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:38:31 [A] 543/550 seed 42 washing_machine B RandomForest SMOTE fold 3 F1=0.3707 489.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:47:21 [A] 544/550 seed 42 washing_machine B RandomForest SMOTE fold 4 F1=0.4148 529.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:55:33 [A] 545/550 seed 42 washing_machine B RandomForest SMOTE fold 5 F1=0.3060 492.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 13:58:08 [A] 546/550 seed 42 washing_machine B RandomForest ADASYN fold 1 F1=0.2907 155.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 14:00:45 [A] 547/550 seed 42 washing_machine B RandomForest ADASYN fold 2 F1=0.3282 156.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 14:03:20 [A] 548/550 seed 42 washing_machine B RandomForest ADASYN fold 3 F1=0.3376 155.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 14:06:08 [A] 549/550 seed 42 washing_machine B RandomForest ADASYN fold 4 F1=0.3866 167.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 14:08:43 [A] 550/550 seed 42 washing_machine B RandomForest ADASYN fold 5 F1=0.2851 154.6s
+2026-10-16 14:08:43 PHASE A DONE

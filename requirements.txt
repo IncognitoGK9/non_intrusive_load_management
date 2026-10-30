@@ -1,0 +1,14 @@
+# Exact versions of the environment used for all experiments (Python 3.9.6, macOS; see requirements-lock.txt)
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+imbalanced-learn==0.12.4
+xgboost==2.1.4
+lightgbm==4.6.0
+torch==2.8.0
+matplotlib==3.9.4
+py7zr==1.0.0
+# Analysis-only packages (statistical analyses and workbook; any recent version reproduces the reported values)
+statsmodels>=0.14,<0.16   # identical results verified with 0.14.4 (macOS) and 0.15.0
+openpyxl==3.1.5

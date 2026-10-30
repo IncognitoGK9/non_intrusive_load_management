@@ -1,0 +1,466 @@
+{
+ "n_cfg": 270,
+ "n5": 270,
+ "eff_pooled": {
+  "A": 0.22042831740147376,
+  "B": 0.3349502375307676,
+  "gain": 51.95426861636432,
+  "none": 0.24616232169631844,
+  "cw": 0.30539812247688636,
+  "smote": 0.28957149727953435,
+  "adasyn": 0.2735835748418529,
+  "cw_gain": 24.063715507869233,
+  "corr_gain": 17.612528813376027
+ },
+ "eff_lho": {
+  "A": 0.18938010753598455,
+  "B": 0.2880145692917603,
+  "gain": 52.08279952900226,
+  "none": 0.17114606095967766,
+  "cw": 0.2694765240375029,
+  "smote": 0.2680804153070903,
+  "adasyn": 0.2504833798688803,
+  "cw_gain": 57.4541199057991,
+  "corr_gain": 53.482998633768794
+ },
+ "BgtA": [
+  112,
+  135
+ ],
+ "BgtA_pooled": [
+  110,
+  135
+ ],
+ "drop_arm": {
+  "A": 0.031048209865489215,
+  "B": 0.04693566823900727
+ },
+ "drop_imb": {
+  "ADASYN": 0.023100194972972537,
+  "SMOTE": 0.021491081972444058,
+  "class_weight": 0.03592159843938348,
+  "none": 0.07501626073664079
+ },
+ "drop_model": {
+  "DecisionTree": 0.055682374041697104,
+  "LightGBM": 0.03723220613653079,
+  "LogisticRegression": 0.003211754673520163,
+  "RandomForest": 0.05050796708528667,
+  "SVM_RBF": 0.02371224633633769,
+  "XGBoost": 0.05712294418096573,
+  "kNN": 0.04763479486445001
+ },
+ "app_gain": {
+  "dishwasher": [
+   0.05009147214700993,
+   0.045915182846521796
+  ],
+  "fridge": [
+   0.025731704070294514,
+   -0.01881255373532803
+  ],
+  "kettle": [
+   0.17114192636145778,
+   0.16748428361543802
+  ],
+  "microwave": [
+   0.08968256706249081,
+   0.0677159901763677
+  ],
+  "washing_machine": [
+   0.23596193100521595,
+   0.23086940587587917
+  ]
+ },
+ "eta": {
+  "pooled": {
+   "C(appliance)": 37.68171541205664,
+   "C(model)": 7.545729947281356,
+   "C(arm)": 13.22308295323818,
+   "C(imbalance)": 2.088507061475487,
+   "Residual": 39.46096462594833
+  },
+  "lho": {
+   "C(appliance)": 33.670363136473675,
+   "C(model)": 3.60079665269696,
+   "C(arm)": 13.062914341533872,
+   "C(imbalance)": 9.062410361524373,
+   "Residual": 40.60351550777111
+  }
+ },
+ "rho_all": 0.9056070770725414,
+ "rho_opt": [
+  0.6319826304451038,
+  1.639124365649193e-31
+ ],
+ "n_lower": 207,
+ "sel": {
+  "dishwasher": {
+   "p": [
+    "XGBoost",
+    "B",
+    "none"
+   ],
+   "p_pooled": 0.5115769292789729,
+   "p_lho": 0.22406886301765572,
+   "l": [
+    "XGBoost",
+    "B",
+    "SMOTE"
+   ],
+   "l_pooled": 0.3647827281686719,
+   "l_lho": 0.37383732448177814
+  },
+  "fridge": {
+   "p": [
+    "RandomForest",
+    "B",
+    "class_weight"
+   ],
+   "p_pooled": 0.5564967577896249,
+   "p_lho": 0.4744117646226361,
+   "l": [
+    "SVM_RBF",
+    "A",
+    "ADASYN"
+   ],
+   "l_pooled": 0.5034917374274795,
+   "l_lho": 0.47735435075418675
+  },
+  "kettle": {
+   "p": [
+    "XGBoost",
+    "B",
+    "none"
+   ],
+   "p_pooled": 0.5701651230481249,
+   "p_lho": 0.42085032912287196,
+   "l": [
+    "LightGBM",
+    "B",
+    "SMOTE"
+   ],
+   "l_pooled": 0.3026424497453163,
+   "l_lho": 0.4786531173363845
+  },
+  "microwave": {
+   "p": [
+    "XGBoost",
+    "B",
+    "class_weight"
+   ],
+   "p_pooled": 0.3244862609951511,
+   "p_lho": 0.22419967361403487,
+   "l": [
+    "LightGBM",
+    "B",
+    "SMOTE"
+   ],
+   "l_pooled": 0.1821729015395199,
+   "l_lho": 0.24348459892146274
+  },
+  "washing_machine": {
+   "p": [
+    "XGBoost",
+    "B",
+    "none"
+   ],
+   "p_pooled": 0.5322846420833477,
+   "p_lho": 0.4737676814240778,
+   "l": [
+    "LightGBM",
+    "B",
+    "SMOTE"
+   ],
+   "l_pooled": 0.4608640454270164,
+   "l_lho": 0.4997367127896566
+  }
+ },
+ "n_changed": 5,
+ "w_pooledsel": 0.4465907202324525,
+ "w_lhobest": 0.46696747392963744,
+ "fried_pooledsel": [
+  4.799999999999997,
+  0.569708746657511
+ ],
+ "fried_pooledsel_ranks": {
+  "DecisionTree": 3.6,
+  "LightGBM": 4.0,
+  "LogisticRegression": 5.8,
+  "RandomForest": 4.2,
+  "SVM_RBF": 3.4,
+  "XGBoost": 3.2,
+  "kNN": 3.8
+ },
+ "fried_lhobest": [
+  16.285714285714278,
+  0.012299870391221898
+ ],
+ "fried_lhobest_ranks": {
+  "DecisionTree": 4.0,
+  "LightGBM": 1.6,
+  "LogisticRegression": 6.6,
+  "RandomForest": 4.6,
+  "SVM_RBF": 4.0,
+  "XGBoost": 2.6,
+  "kNN": 4.6
+ },
+ "fried_pooled": [
+  21.171428571428578,
+  0.0017089203387883028
+ ],
+ "lm": {
+  "DecisionTree": {
+   "dishwasher": 0.326,
+   "fridge": 0.464,
+   "kettle": 0.424,
+   "microwave": 0.175,
+   "washing_machine": 0.425
+  },
+  "LightGBM": {
+   "dishwasher": 0.358,
+   "fridge": 0.474,
+   "kettle": 0.479,
+   "microwave": 0.243,
+   "washing_machine": 0.5
+  },
+  "LogisticRegression": {
+   "dishwasher": 0.308,
+   "fridge": 0.392,
+   "kettle": 0.163,
+   "microwave": 0.085,
+   "washing_machine": 0.314
+  },
+  "RandomForest": {
+   "dishwasher": 0.242,
+   "fridge": 0.474,
+   "kettle": 0.457,
+   "microwave": 0.147,
+   "washing_machine": 0.406
+  },
+  "SVM_RBF": {
+   "dishwasher": 0.31,
+   "fridge": 0.477,
+   "kettle": 0.465,
+   "microwave": 0.13,
+   "washing_machine": 0.376
+  },
+  "XGBoost": {
+   "dishwasher": 0.374,
+   "fridge": 0.474,
+   "kettle": 0.462,
+   "microwave": 0.23,
+   "washing_machine": 0.497
+  },
+  "kNN": {
+   "dishwasher": 0.288,
+   "fridge": 0.393,
+   "kettle": 0.471,
+   "microwave": 0.155,
+   "washing_machine": 0.394
+  }
+ },
+ "B": [
+  {
+   "seed": 1,
+   "n": 160,
+   "gain": 56.2862,
+   "cw_gain": 64.6712,
+   "corr_gain": 63.9523,
+   "changed": 4,
+   "max_loss": 0.146,
+   "mean_lho": 0.2374,
+   "w_sel": 0.442,
+   "eta_model": 4.6173,
+   "eta_imb": 10.183,
+   "eta_arm": 13.7673,
+   "eta_app": 29.5522,
+   "rho": 0.9045
+  },
+  {
+   "seed": 2,
+   "n": 160,
+   "gain": 54.0922,
+   "cw_gain": 64.3221,
+   "corr_gain": 62.9449,
+   "changed": 4,
+   "max_loss": 0.1468,
+   "mean_lho": 0.2386,
+   "w_sel": 0.4519,
+   "eta_model": 4.8557,
+   "eta_imb": 10.4708,
+   "eta_arm": 13.5926,
+   "eta_app": 28.6091,
+   "rho": 0.9084
+  },
+  {
+   "seed": 3,
+   "n": 160,
+   "gain": 54.1173,
+   "cw_gain": 66.9912,
+   "corr_gain": 65.0942,
+   "changed": 4,
+   "max_loss": 0.1297,
+   "mean_lho": 0.2361,
+   "w_sel": 0.4576,
+   "eta_model": 4.5153,
+   "eta_imb": 10.0905,
+   "eta_arm": 12.4587,
+   "eta_app": 33.2675,
+   "rho": 0.909
+  },
+  {
+   "seed": 42,
+   "n": 160,
+   "gain": 56.6068,
+   "cw_gain": 61.8653,
+   "corr_gain": 60.7997,
+   "changed": 5,
+   "max_loss": 0.1498,
+   "mean_lho": 0.2408,
+   "w_sel": 0.4459,
+   "eta_model": 5.2277,
+   "eta_imb": 10.0397,
+   "eta_arm": 14.5631,
+   "eta_app": 29.4245,
+   "rho": 0.8984
+  }
+ ],
+ "B_mean": {
+  "seed": 12.0,
+  "n": 160.0,
+  "gain": 55.2756,
+  "cw_gain": 64.4625,
+  "corr_gain": 63.1978,
+  "changed": 4.25,
+  "max_loss": 0.143,
+  "mean_lho": 0.2382,
+  "w_sel": 0.4494,
+  "eta_model": 4.804,
+  "eta_imb": 10.196,
+  "eta_arm": 13.5954,
+  "eta_app": 30.2133,
+  "rho": 0.9051
+ },
+ "B_sd": {
+  "seed": 20.0167,
+  "n": 0.0,
+  "gain": 1.3584,
+  "cw_gain": 2.0978,
+  "corr_gain": 1.8239,
+  "changed": 0.5,
+  "max_loss": 0.0091,
+  "mean_lho": 0.002,
+  "w_sel": 0.0068,
+  "eta_model": 0.3164,
+  "eta_imb": 0.1926,
+  "eta_arm": 0.8676,
+  "eta_app": 2.0785,
+  "rho": 0.0049
+ },
+ "C": {
+  "n": 80,
+  "mean_tuned": 0.29672596496913484,
+  "mean_fixed": 0.29393594038091797,
+  "diff": 0.002790024588216867,
+  "absdiff": 0.0077371300281863665,
+  "rho": 0.9901781528363807,
+  "cw_gain_tuned": 25.73153614546375,
+  "cw_gain_fixed": 27.708518701902896,
+  "corr_gain_tuned": 28.28331905603738
+ },
+ "C_best": {
+  "dishwasher": [
+   "LightGBM",
+   "SMOTE",
+   0.3695780400544006
+  ],
+  "fridge": [
+   "LightGBM",
+   "class_weight",
+   0.47476443239459243
+  ],
+  "kettle": [
+   "XGBoost",
+   "none",
+   0.48567914546943697
+  ],
+  "microwave": [
+   "XGBoost",
+   "SMOTE",
+   0.25555324848966865
+  ],
+  "washing_machine": [
+   "XGBoost",
+   "SMOTE",
+   0.5133644941234476
+  ]
+ },
+ "C_none_best_cnt": 1,
+ "D": {
+  "dishwasher": {
+   "f1": 0.344,
+   "sd": 0.096,
+   "on": 42546,
+   "p": 0.232,
+   "r": 0.726
+  },
+  "fridge": {
+   "f1": 0.468,
+   "sd": 0.108,
+   "on": 339854,
+   "p": 0.383,
+   "r": 0.65
+  },
+  "kettle": {
+   "f1": 0.15,
+   "sd": 0.048,
+   "on": 5979,
+   "p": 0.082,
+   "r": 0.924
+  },
+  "microwave": {
+   "f1": 0.08,
+   "sd": 0.026,
+   "on": 3632,
+   "p": 0.042,
+   "r": 0.951
+  },
+  "washing_machine": {
+   "f1": 0.49,
+   "sd": 0.08,
+   "on": 35824,
+   "p": 0.342,
+   "r": 0.912
+  }
+ },
+ "D_w": 0.45014793953915355,
+ "D_macro": 0.30657724459155666,
+ "D_vs": {
+  "dishwasher": {
+   "cnn": 0.34363863973710584,
+   "classical_pooledsel": 0.22406886301765572,
+   "classical_lhobest": 0.37383732448177814
+  },
+  "fridge": {
+   "cnn": 0.4684857941113201,
+   "classical_pooledsel": 0.4744117646226361,
+   "classical_lhobest": 0.47735435075418675
+  },
+  "kettle": {
+   "cnn": 0.1500582263728876,
+   "classical_pooledsel": 0.42085032912287196,
+   "classical_lhobest": 0.4786531173363845
+  },
+  "microwave": {
+   "cnn": 0.08046283214415074,
+   "classical_pooledsel": 0.22419967361403487,
+   "classical_lhobest": 0.24348459892146274
+  },
+  "washing_machine": {
+   "cnn": 0.4902407305923191,
+   "classical_pooledsel": 0.4737676814240778,
+   "classical_lhobest": 0.4997367127896566
+  }
+ }
+}

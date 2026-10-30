@@ -1,0 +1,401 @@
+2026-10-16 14:11:40 [E] 1/200 seed 42 dishwasher A SVM_RBF none fold 1 F1=0.1364 166.8s
+2026-10-16 14:14:54 [E] 2/200 seed 42 dishwasher A SVM_RBF none fold 2 F1=0.0340 194.3s
+2026-10-16 14:18:08 [E] 3/200 seed 42 dishwasher A SVM_RBF none fold 3 F1=0.0262 193.4s
+2026-10-16 14:21:34 [E] 4/200 seed 42 dishwasher A SVM_RBF none fold 4 F1=0.0744 206.4s
+2026-10-16 14:24:26 [E] 5/200 seed 42 dishwasher A SVM_RBF none fold 5 F1=0.2162 171.3s
+2026-10-16 14:30:33 [E] 6/200 seed 42 dishwasher A SVM_RBF class_weight fold 1 F1=0.4046 367.8s
+2026-10-16 14:36:00 [E] 7/200 seed 42 dishwasher A SVM_RBF class_weight fold 2 F1=0.2869 326.4s
+2026-10-16 14:41:48 [E] 8/200 seed 42 dishwasher A SVM_RBF class_weight fold 3 F1=0.1582 348.0s
+2026-10-16 14:48:01 [E] 9/200 seed 42 dishwasher A SVM_RBF class_weight fold 4 F1=0.2736 373.4s
+2026-10-16 14:53:38 [E] 10/200 seed 42 dishwasher A SVM_RBF class_weight fold 5 F1=0.3043 336.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 15:08:33 [E] 11/200 seed 42 dishwasher A SVM_RBF SMOTE fold 1 F1=0.3862 895.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 15:21:50 [E] 12/200 seed 42 dishwasher A SVM_RBF SMOTE fold 2 F1=0.2863 796.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 15:35:50 [E] 13/200 seed 42 dishwasher A SVM_RBF SMOTE fold 3 F1=0.1547 840.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 15:49:43 [E] 14/200 seed 42 dishwasher A SVM_RBF SMOTE fold 4 F1=0.2674 832.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 16:03:44 [E] 15/200 seed 42 dishwasher A SVM_RBF SMOTE fold 5 F1=0.3076 840.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 16:20:02 [E] 16/200 seed 42 dishwasher A SVM_RBF ADASYN fold 1 F1=0.3314 978.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 16:35:11 [E] 17/200 seed 42 dishwasher A SVM_RBF ADASYN fold 2 F1=0.2170 909.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 16:50:33 [E] 18/200 seed 42 dishwasher A SVM_RBF ADASYN fold 3 F1=0.0871 922.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 17:06:22 [E] 19/200 seed 42 dishwasher A SVM_RBF ADASYN fold 4 F1=0.1960 948.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 17:21:13 [E] 20/200 seed 42 dishwasher A SVM_RBF ADASYN fold 5 F1=0.2423 891.1s
+2026-10-16 17:25:01 [E] 21/200 seed 42 dishwasher B SVM_RBF none fold 1 F1=0.5294 227.9s
+2026-10-16 17:29:45 [E] 22/200 seed 42 dishwasher B SVM_RBF none fold 2 F1=0.2188 283.4s
+2026-10-16 17:35:18 [E] 23/200 seed 42 dishwasher B SVM_RBF none fold 3 F1=0.1836 333.0s
+2026-10-16 17:41:03 [E] 24/200 seed 42 dishwasher B SVM_RBF none fold 4 F1=0.1970 345.0s
+2026-10-16 17:49:24 [E] 25/200 seed 42 dishwasher B SVM_RBF none fold 5 F1=0.1229 500.8s
+2026-10-16 17:57:17 [E] 26/200 seed 42 dishwasher B SVM_RBF class_weight fold 1 F1=0.4226 472.9s
+2026-10-16 18:04:13 [E] 27/200 seed 42 dishwasher B SVM_RBF class_weight fold 2 F1=0.2949 416.2s
+2026-10-16 18:11:46 [E] 28/200 seed 42 dishwasher B SVM_RBF class_weight fold 3 F1=0.2138 453.4s
+2026-10-16 18:19:15 [E] 29/200 seed 42 dishwasher B SVM_RBF class_weight fold 4 F1=0.2786 448.4s
+2026-10-16 18:26:32 [E] 30/200 seed 42 dishwasher B SVM_RBF class_weight fold 5 F1=0.3423 437.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 18:43:24 [E] 31/200 seed 42 dishwasher B SVM_RBF SMOTE fold 1 F1=0.3971 1012.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 18:58:00 [E] 32/200 seed 42 dishwasher B SVM_RBF SMOTE fold 2 F1=0.2950 876.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 19:14:03 [E] 33/200 seed 42 dishwasher B SVM_RBF SMOTE fold 3 F1=0.1952 962.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 19:29:52 [E] 34/200 seed 42 dishwasher B SVM_RBF SMOTE fold 4 F1=0.2752 948.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 19:45:20 [E] 35/200 seed 42 dishwasher B SVM_RBF SMOTE fold 5 F1=0.3114 927.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 20:06:16 [E] 36/200 seed 42 dishwasher B SVM_RBF ADASYN fold 1 F1=0.3346 1255.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 20:26:05 [E] 37/200 seed 42 dishwasher B SVM_RBF ADASYN fold 2 F1=0.2279 1189.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 20:46:51 [E] 38/200 seed 42 dishwasher B SVM_RBF ADASYN fold 3 F1=0.0829 1245.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 21:07:54 [E] 39/200 seed 42 dishwasher B SVM_RBF ADASYN fold 4 F1=0.2032 1263.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 21:27:54 [E] 40/200 seed 42 dishwasher B SVM_RBF ADASYN fold 5 F1=0.2591 1200.3s
+2026-10-16 21:40:47 [E] 41/200 seed 42 fridge A SVM_RBF none fold 1 F1=0.0020 772.3s
+2026-10-16 21:52:10 [E] 42/200 seed 42 fridge A SVM_RBF none fold 2 F1=0.0014 683.4s
+2026-10-16 22:06:09 [E] 43/200 seed 42 fridge A SVM_RBF none fold 3 F1=0.0118 838.7s
+2026-10-16 22:18:01 [E] 44/200 seed 42 fridge A SVM_RBF none fold 4 F1=0.0012 712.5s
+2026-10-16 22:28:06 [E] 45/200 seed 42 fridge A SVM_RBF none fold 5 F1=0.0274 604.2s
+2026-10-16 22:38:42 [E] 46/200 seed 42 fridge A SVM_RBF class_weight fold 1 F1=0.4911 636.7s
+2026-10-16 22:49:19 [E] 47/200 seed 42 fridge A SVM_RBF class_weight fold 2 F1=0.4755 636.4s
+2026-10-16 22:59:56 [E] 48/200 seed 42 fridge A SVM_RBF class_weight fold 3 F1=0.5415 637.0s
+2026-10-16 23:08:29 [E] 49/200 seed 42 fridge A SVM_RBF class_weight fold 4 F1=0.5701 512.9s
+2026-10-16 23:17:11 [E] 50/200 seed 42 fridge A SVM_RBF class_weight fold 5 F1=0.2819 522.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 23:32:32 [E] 51/200 seed 42 fridge A SVM_RBF SMOTE fold 1 F1=0.4917 921.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-16 23:47:31 [E] 52/200 seed 42 fridge A SVM_RBF SMOTE fold 2 F1=0.4740 899.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 00:03:00 [E] 53/200 seed 42 fridge A SVM_RBF SMOTE fold 3 F1=0.5414 929.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 00:16:00 [E] 54/200 seed 42 fridge A SVM_RBF SMOTE fold 4 F1=0.5699 779.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 00:27:37 [E] 55/200 seed 42 fridge A SVM_RBF SMOTE fold 5 F1=0.2819 697.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 00:43:02 [E] 56/200 seed 42 fridge A SVM_RBF ADASYN fold 1 F1=0.4933 925.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 00:58:26 [E] 57/200 seed 42 fridge A SVM_RBF ADASYN fold 2 F1=0.4830 924.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 01:13:51 [E] 58/200 seed 42 fridge A SVM_RBF ADASYN fold 3 F1=0.5413 924.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 01:27:51 [E] 59/200 seed 42 fridge A SVM_RBF ADASYN fold 4 F1=0.5932 840.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 01:39:59 [E] 60/200 seed 42 fridge A SVM_RBF ADASYN fold 5 F1=0.2759 728.1s
+2026-10-17 02:02:42 [E] 61/200 seed 42 fridge B SVM_RBF none fold 1 F1=0.0307 1362.4s
+2026-10-17 02:40:54 [E] 62/200 seed 42 fridge B SVM_RBF none fold 2 F1=0.0483 2292.1s
+2026-10-17 03:13:14 [E] 63/200 seed 42 fridge B SVM_RBF none fold 3 F1=0.0261 1939.1s
+2026-10-17 03:34:03 [E] 64/200 seed 42 fridge B SVM_RBF none fold 4 F1=0.0183 1249.8s
+2026-10-17 03:49:07 [E] 65/200 seed 42 fridge B SVM_RBF none fold 5 F1=0.0610 903.2s
+2026-10-17 04:04:26 [E] 66/200 seed 42 fridge B SVM_RBF class_weight fold 1 F1=0.4827 919.0s
+2026-10-17 04:20:00 [E] 67/200 seed 42 fridge B SVM_RBF class_weight fold 2 F1=0.4659 934.2s
+2026-10-17 04:35:37 [E] 68/200 seed 42 fridge B SVM_RBF class_weight fold 3 F1=0.5356 936.7s
+2026-10-17 04:48:22 [E] 69/200 seed 42 fridge B SVM_RBF class_weight fold 4 F1=0.5648 765.2s
+2026-10-17 05:01:26 [E] 70/200 seed 42 fridge B SVM_RBF class_weight fold 5 F1=0.2806 784.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 05:22:34 [E] 71/200 seed 42 fridge B SVM_RBF SMOTE fold 1 F1=0.4779 1267.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 05:43:15 [E] 72/200 seed 42 fridge B SVM_RBF SMOTE fold 2 F1=0.4485 1241.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 06:04:49 [E] 73/200 seed 42 fridge B SVM_RBF SMOTE fold 3 F1=0.5363 1293.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 06:23:06 [E] 74/200 seed 42 fridge B SVM_RBF SMOTE fold 4 F1=0.5514 1097.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 06:39:29 [E] 75/200 seed 42 fridge B SVM_RBF SMOTE fold 5 F1=0.2809 982.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 07:01:21 [E] 76/200 seed 42 fridge B SVM_RBF ADASYN fold 1 F1=0.4765 1312.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 07:23:35 [E] 77/200 seed 42 fridge B SVM_RBF ADASYN fold 2 F1=0.4579 1334.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 07:45:51 [E] 78/200 seed 42 fridge B SVM_RBF ADASYN fold 3 F1=0.5267 1336.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 08:03:50 [E] 79/200 seed 42 fridge B SVM_RBF ADASYN fold 4 F1=0.5354 1078.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 08:20:39 [E] 80/200 seed 42 fridge B SVM_RBF ADASYN fold 5 F1=0.2736 1009.6s
+2026-10-17 08:21:10 [E] 81/200 seed 42 kettle A SVM_RBF none fold 1 F1=0.0000 30.9s
+2026-10-17 08:21:20 [E] 82/200 seed 42 kettle A SVM_RBF none fold 2 F1=0.0000 10.1s
+2026-10-17 08:21:32 [E] 83/200 seed 42 kettle A SVM_RBF none fold 3 F1=0.0000 12.3s
+2026-10-17 08:21:45 [E] 84/200 seed 42 kettle A SVM_RBF none fold 4 F1=0.0000 12.5s
+2026-10-17 08:22:00 [E] 85/200 seed 42 kettle A SVM_RBF none fold 5 F1=0.0000 14.7s
+2026-10-17 08:25:49 [E] 86/200 seed 42 kettle A SVM_RBF class_weight fold 1 F1=0.1730 229.8s
+2026-10-17 08:31:20 [E] 87/200 seed 42 kettle A SVM_RBF class_weight fold 2 F1=0.2704 330.6s
+2026-10-17 08:34:26 [E] 88/200 seed 42 kettle A SVM_RBF class_weight fold 3 F1=0.0450 185.9s
+2026-10-17 08:38:09 [E] 89/200 seed 42 kettle A SVM_RBF class_weight fold 4 F1=0.1844 223.4s
+2026-10-17 08:43:26 [E] 90/200 seed 42 kettle A SVM_RBF class_weight fold 5 F1=0.1581 316.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 08:50:49 [E] 91/200 seed 42 kettle A SVM_RBF SMOTE fold 1 F1=0.1621 443.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:02:09 [E] 92/200 seed 42 kettle A SVM_RBF SMOTE fold 2 F1=0.2599 680.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:10:41 [E] 93/200 seed 42 kettle A SVM_RBF SMOTE fold 3 F1=0.0483 512.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:20:31 [E] 94/200 seed 42 kettle A SVM_RBF SMOTE fold 4 F1=0.1823 589.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:29:23 [E] 95/200 seed 42 kettle A SVM_RBF SMOTE fold 5 F1=0.1567 531.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:36:40 [E] 96/200 seed 42 kettle A SVM_RBF ADASYN fold 1 F1=0.1552 437.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:48:01 [E] 97/200 seed 42 kettle A SVM_RBF ADASYN fold 2 F1=0.2556 680.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 09:57:24 [E] 98/200 seed 42 kettle A SVM_RBF ADASYN fold 3 F1=0.0461 563.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 10:07:59 [E] 99/200 seed 42 kettle A SVM_RBF ADASYN fold 4 F1=0.1799 634.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 10:18:00 [E] 100/200 seed 42 kettle A SVM_RBF ADASYN fold 5 F1=0.1529 600.7s
+2026-10-17 10:20:02 [E] 101/200 seed 42 kettle B SVM_RBF none fold 1 F1=0.3565 121.0s
+2026-10-17 10:21:44 [E] 102/200 seed 42 kettle B SVM_RBF none fold 2 F1=0.6326 102.0s
+2026-10-17 10:23:02 [E] 103/200 seed 42 kettle B SVM_RBF none fold 3 F1=0.2491 78.7s
+2026-10-17 10:24:45 [E] 104/200 seed 42 kettle B SVM_RBF none fold 4 F1=0.6112 102.5s
+2026-10-17 10:25:40 [E] 105/200 seed 42 kettle B SVM_RBF none fold 5 F1=0.4735 54.6s
+2026-10-17 10:27:21 [E] 106/200 seed 42 kettle B SVM_RBF class_weight fold 1 F1=0.2627 101.3s
+2026-10-17 10:29:49 [E] 107/200 seed 42 kettle B SVM_RBF class_weight fold 2 F1=0.4061 148.5s
+2026-10-17 10:31:36 [E] 108/200 seed 42 kettle B SVM_RBF class_weight fold 3 F1=0.0846 106.1s
+2026-10-17 10:33:49 [E] 109/200 seed 42 kettle B SVM_RBF class_weight fold 4 F1=0.3077 133.4s
+2026-10-17 10:35:43 [E] 110/200 seed 42 kettle B SVM_RBF class_weight fold 5 F1=0.2772 113.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 10:40:48 [E] 111/200 seed 42 kettle B SVM_RBF SMOTE fold 1 F1=0.2423 305.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 10:48:40 [E] 112/200 seed 42 kettle B SVM_RBF SMOTE fold 2 F1=0.3330 471.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 10:54:55 [E] 113/200 seed 42 kettle B SVM_RBF SMOTE fold 3 F1=0.0765 375.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:02:47 [E] 114/200 seed 42 kettle B SVM_RBF SMOTE fold 4 F1=0.2741 471.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:09:32 [E] 115/200 seed 42 kettle B SVM_RBF SMOTE fold 5 F1=0.2153 405.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:16:43 [E] 116/200 seed 42 kettle B SVM_RBF ADASYN fold 1 F1=0.1984 431.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:26:16 [E] 117/200 seed 42 kettle B SVM_RBF ADASYN fold 2 F1=0.3144 572.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:34:18 [E] 118/200 seed 42 kettle B SVM_RBF ADASYN fold 3 F1=0.0594 482.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:44:22 [E] 119/200 seed 42 kettle B SVM_RBF ADASYN fold 4 F1=0.2540 604.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 11:52:55 [E] 120/200 seed 42 kettle B SVM_RBF ADASYN fold 5 F1=0.1920 513.0s
+2026-10-17 11:53:27 [E] 121/200 seed 42 microwave A SVM_RBF none fold 1 F1=0.0000 31.3s
+2026-10-17 11:53:57 [E] 122/200 seed 42 microwave A SVM_RBF none fold 2 F1=0.0000 30.7s
+2026-10-17 11:54:27 [E] 123/200 seed 42 microwave A SVM_RBF none fold 3 F1=0.0000 29.8s
+2026-10-17 11:54:50 [E] 124/200 seed 42 microwave A SVM_RBF none fold 4 F1=0.0000 22.5s
+2026-10-17 11:54:57 [E] 125/200 seed 42 microwave A SVM_RBF none fold 5 F1=0.0000 7.3s
+2026-10-17 11:57:41 [E] 126/200 seed 42 microwave A SVM_RBF class_weight fold 1 F1=0.1132 164.0s
+2026-10-17 11:59:50 [E] 127/200 seed 42 microwave A SVM_RBF class_weight fold 2 F1=0.1066 128.6s
+2026-10-17 12:01:48 [E] 128/200 seed 42 microwave A SVM_RBF class_weight fold 3 F1=0.0854 118.0s
+2026-10-17 12:03:42 [E] 129/200 seed 42 microwave A SVM_RBF class_weight fold 4 F1=0.1084 114.5s
+2026-10-17 12:05:17 [E] 130/200 seed 42 microwave A SVM_RBF class_weight fold 5 F1=0.0276 94.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:12:04 [E] 131/200 seed 42 microwave A SVM_RBF SMOTE fold 1 F1=0.1156 407.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:17:59 [E] 132/200 seed 42 microwave A SVM_RBF SMOTE fold 2 F1=0.1078 354.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:23:09 [E] 133/200 seed 42 microwave A SVM_RBF SMOTE fold 3 F1=0.0907 310.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:28:43 [E] 134/200 seed 42 microwave A SVM_RBF SMOTE fold 4 F1=0.1057 334.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:33:22 [E] 135/200 seed 42 microwave A SVM_RBF SMOTE fold 5 F1=0.0249 278.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:40:49 [E] 136/200 seed 42 microwave A SVM_RBF ADASYN fold 1 F1=0.1088 447.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:47:08 [E] 137/200 seed 42 microwave A SVM_RBF ADASYN fold 2 F1=0.1082 378.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:52:43 [E] 138/200 seed 42 microwave A SVM_RBF ADASYN fold 3 F1=0.0921 335.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 12:58:22 [E] 139/200 seed 42 microwave A SVM_RBF ADASYN fold 4 F1=0.1033 339.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:03:17 [E] 140/200 seed 42 microwave A SVM_RBF ADASYN fold 5 F1=0.0246 294.3s
+2026-10-17 13:03:35 [E] 141/200 seed 42 microwave B SVM_RBF none fold 1 F1=0.0573 17.7s
+2026-10-17 13:03:56 [E] 142/200 seed 42 microwave B SVM_RBF none fold 2 F1=0.0287 20.4s
+2026-10-17 13:04:16 [E] 143/200 seed 42 microwave B SVM_RBF none fold 3 F1=0.0708 20.6s
+2026-10-17 13:04:36 [E] 144/200 seed 42 microwave B SVM_RBF none fold 4 F1=0.0245 19.6s
+2026-10-17 13:04:59 [E] 145/200 seed 42 microwave B SVM_RBF none fold 5 F1=0.0325 22.8s
+2026-10-17 13:06:15 [E] 146/200 seed 42 microwave B SVM_RBF class_weight fold 1 F1=0.1299 76.7s
+2026-10-17 13:07:31 [E] 147/200 seed 42 microwave B SVM_RBF class_weight fold 2 F1=0.1431 75.2s
+2026-10-17 13:08:35 [E] 148/200 seed 42 microwave B SVM_RBF class_weight fold 3 F1=0.1492 64.6s
+2026-10-17 13:09:36 [E] 149/200 seed 42 microwave B SVM_RBF class_weight fold 4 F1=0.1861 60.8s
+2026-10-17 13:10:27 [E] 150/200 seed 42 microwave B SVM_RBF class_weight fold 5 F1=0.0439 51.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:15:02 [E] 151/200 seed 42 microwave B SVM_RBF SMOTE fold 1 F1=0.1327 274.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:20:11 [E] 152/200 seed 42 microwave B SVM_RBF SMOTE fold 2 F1=0.1143 309.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:24:40 [E] 153/200 seed 42 microwave B SVM_RBF SMOTE fold 3 F1=0.1329 268.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:29:31 [E] 154/200 seed 42 microwave B SVM_RBF SMOTE fold 4 F1=0.1488 291.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:33:33 [E] 155/200 seed 42 microwave B SVM_RBF SMOTE fold 5 F1=0.0313 241.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:38:17 [E] 156/200 seed 42 microwave B SVM_RBF ADASYN fold 1 F1=0.1303 284.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:43:35 [E] 157/200 seed 42 microwave B SVM_RBF ADASYN fold 2 F1=0.1143 318.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:48:20 [E] 158/200 seed 42 microwave B SVM_RBF ADASYN fold 3 F1=0.1311 285.1s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:53:27 [E] 159/200 seed 42 microwave B SVM_RBF ADASYN fold 4 F1=0.1462 306.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 13:57:32 [E] 160/200 seed 42 microwave B SVM_RBF ADASYN fold 5 F1=0.0306 244.8s
+2026-10-17 13:59:25 [E] 161/200 seed 42 washing_machine A SVM_RBF none fold 1 F1=0.0037 112.6s
+2026-10-17 14:01:11 [E] 162/200 seed 42 washing_machine A SVM_RBF none fold 2 F1=0.0195 106.8s
+2026-10-17 14:03:04 [E] 163/200 seed 42 washing_machine A SVM_RBF none fold 3 F1=0.0215 112.7s
+2026-10-17 14:04:36 [E] 164/200 seed 42 washing_machine A SVM_RBF none fold 4 F1=0.0242 92.3s
+2026-10-17 14:06:15 [E] 165/200 seed 42 washing_machine A SVM_RBF none fold 5 F1=0.0319 98.4s
+2026-10-17 14:12:53 [E] 166/200 seed 42 washing_machine A SVM_RBF class_weight fold 1 F1=0.1735 398.0s
+2026-10-17 14:19:05 [E] 167/200 seed 42 washing_machine A SVM_RBF class_weight fold 2 F1=0.1817 371.7s
+2026-10-17 14:25:30 [E] 168/200 seed 42 washing_machine A SVM_RBF class_weight fold 3 F1=0.1966 385.7s
+2026-10-17 14:31:02 [E] 169/200 seed 42 washing_machine A SVM_RBF class_weight fold 4 F1=0.2175 332.0s
+2026-10-17 14:37:25 [E] 170/200 seed 42 washing_machine A SVM_RBF class_weight fold 5 F1=0.1483 382.2s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 14:54:21 [E] 171/200 seed 42 washing_machine A SVM_RBF SMOTE fold 1 F1=0.1795 1016.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 15:09:46 [E] 172/200 seed 42 washing_machine A SVM_RBF SMOTE fold 2 F1=0.1747 925.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 15:25:50 [E] 173/200 seed 42 washing_machine A SVM_RBF SMOTE fold 3 F1=0.1983 963.7s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 15:40:14 [E] 174/200 seed 42 washing_machine A SVM_RBF SMOTE fold 4 F1=0.2180 864.3s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 15:56:18 [E] 175/200 seed 42 washing_machine A SVM_RBF SMOTE fold 5 F1=0.1499 963.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 16:13:40 [E] 176/200 seed 42 washing_machine A SVM_RBF ADASYN fold 1 F1=0.1765 1041.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 16:29:27 [E] 177/200 seed 42 washing_machine A SVM_RBF ADASYN fold 2 F1=0.1714 947.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 16:45:49 [E] 178/200 seed 42 washing_machine A SVM_RBF ADASYN fold 3 F1=0.1965 982.0s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 17:00:22 [E] 179/200 seed 42 washing_machine A SVM_RBF ADASYN fold 4 F1=0.2165 872.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 17:16:49 [E] 180/200 seed 42 washing_machine A SVM_RBF ADASYN fold 5 F1=0.1478 986.7s
+2026-10-17 17:19:15 [E] 181/200 seed 42 washing_machine B SVM_RBF none fold 1 F1=0.4044 145.9s
+2026-10-17 17:20:49 [E] 182/200 seed 42 washing_machine B SVM_RBF none fold 2 F1=0.2620 93.8s
+2026-10-17 17:22:51 [E] 183/200 seed 42 washing_machine B SVM_RBF none fold 3 F1=0.3327 122.1s
+2026-10-17 17:25:01 [E] 184/200 seed 42 washing_machine B SVM_RBF none fold 4 F1=0.3673 130.0s
+2026-10-17 17:27:04 [E] 185/200 seed 42 washing_machine B SVM_RBF none fold 5 F1=0.3501 123.0s
+2026-10-17 17:32:13 [E] 186/200 seed 42 washing_machine B SVM_RBF class_weight fold 1 F1=0.3219 308.5s
+2026-10-17 17:36:26 [E] 187/200 seed 42 washing_machine B SVM_RBF class_weight fold 2 F1=0.3733 253.4s
+2026-10-17 17:41:45 [E] 188/200 seed 42 washing_machine B SVM_RBF class_weight fold 3 F1=0.3931 318.5s
+2026-10-17 17:46:08 [E] 189/200 seed 42 washing_machine B SVM_RBF class_weight fold 4 F1=0.4191 262.7s
+2026-10-17 17:51:08 [E] 190/200 seed 42 washing_machine B SVM_RBF class_weight fold 5 F1=0.2847 300.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:02:15 [E] 191/200 seed 42 washing_machine B SVM_RBF SMOTE fold 1 F1=0.3315 666.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:11:50 [E] 192/200 seed 42 washing_machine B SVM_RBF SMOTE fold 2 F1=0.3813 574.6s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:23:39 [E] 193/200 seed 42 washing_machine B SVM_RBF SMOTE fold 3 F1=0.4275 709.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:33:36 [E] 194/200 seed 42 washing_machine B SVM_RBF SMOTE fold 4 F1=0.4450 596.4s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:44:50 [E] 195/200 seed 42 washing_machine B SVM_RBF SMOTE fold 5 F1=0.2962 674.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 18:57:45 [E] 196/200 seed 42 washing_machine B SVM_RBF ADASYN fold 1 F1=0.3029 774.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 19:08:53 [E] 197/200 seed 42 washing_machine B SVM_RBF ADASYN fold 2 F1=0.3569 668.5s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 19:22:34 [E] 198/200 seed 42 washing_machine B SVM_RBF ADASYN fold 3 F1=0.3889 820.9s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 19:33:57 [E] 199/200 seed 42 washing_machine B SVM_RBF ADASYN fold 4 F1=0.4138 682.8s
+/Users/incognito/Library/Python/3.9/lib/python/site-packages/sklearn/base.py:474: FutureWarning: `BaseEstimator._validate_data` is deprecated in 1.6 and will be removed in 1.7. Use `sklearn.utils.validation.validate_data` instead. This function becomes public and is part of the scikit-learn developer API.
+  warnings.warn(
+2026-10-17 19:47:09 [E] 200/200 seed 42 washing_machine B SVM_RBF ADASYN fold 5 F1=0.2842 792.2s
+2026-10-17 19:47:09 PHASE E DONE
