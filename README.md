@@ -1,6 +1,6 @@
-# What matters in classical machine learning for non-intrusive load monitoring?
+# Non-intrusive appliance state detection in unseen homes using classical machine learning
 
-Code, configuration files and complete results for the study **"What matters in classical machine learning for non-intrusive load monitoring? A factorial benchmark on REFIT with validation on unseen houses"** (Zablon Ombiro, Strathmore University). The paper is being submitted to *Energy and Buildings*; a preprint will be posted on arXiv.
+Code, configuration files and complete results for the study **"Non-intrusive appliance state detection in unseen homes using classical machine learning"** (Zablon Ombiro, Strathmore University). The paper is under review; citation details will be added after publication.
 
 The study asks which design choices determine the performance of classical machine learning for appliance ON/OFF classification in non-intrusive load monitoring (NILM), and which of the resulting conclusions survive validation on houses that the models never saw during training.
 

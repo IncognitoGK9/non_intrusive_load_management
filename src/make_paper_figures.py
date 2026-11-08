@@ -146,25 +146,25 @@ fig = plt.figure(figsize=(13.28, 5.31), dpi=200); ax = fig.add_axes([0, 0, 1, 1]
 def box(x0, w0, t):
     ax.add_patch(FancyBboxPatch((x0, 0.35), w0, 4.15, boxstyle="round,pad=0.02,rounding_size=0.12", fc="#f7fafc", ec="#cbd5e0", lw=1.2))
     ax.text(x0 + w0 / 2, 4.15, t, ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
-ax.text(6.64, 4.98, "What matters in classical machine learning for non-intrusive load monitoring?", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
+ax.text(6.64, 4.98, "Non-intrusive appliance state detection in unseen homes using classical machine learning", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
 box(0.2, 2.9, "1. Data")
 for i, t in enumerate(["REFIT: 20 UK households", "Aggregate meter, about 8 s", "Five appliances:", "fridge, washing machine,", "dishwasher, kettle, microwave"]):
     ax.text(0.45, 3.5 - i * 0.52, t, fontsize=10.5, color=INK if i != 2 else MUTE, va="center")
 ax.text(0.45, 0.85, "ON/OFF labels from appliance channels", fontsize=9, color=MUTE, va="center")
-box(3.35, 3.0, "2. Factorial benchmark")
+box(3.35, 3.0, "2. Factorial experiment")
 for i, (n_, t) in enumerate([("7", "classical models"), ("2", "feature sets"), ("4", "imbalance strategies")]):
     ax.text(3.65, 3.5 - i * 0.62, n_, fontsize=21, fontweight="bold", color=B_, va="center"); ax.text(4.2, 3.5 - i * 0.62, t, fontsize=11, color=INK, va="center")
-ax.text(3.65, 1.55, "= 270 configurations", fontsize=13, fontweight="bold", color=O_, va="center"); ax.text(3.65, 0.95, "All re-tested on unseen houses", fontsize=9, color=MUTE, va="center")
+ax.text(3.65, 1.55, "= 270 configurations", fontsize=13, fontweight="bold", color=O_, va="center"); ax.text(3.65, 0.95, "All re-tested on unseen homes", fontsize=9, color=MUTE, va="center")
 box(6.6, 3.1, "3. What drives F1?"); am = A["main"]
 for i, (n_, k_) in enumerate([("Appliance", "C(appliance)"), ("Feature set", "C(arm)"), ("Model", "C(model)"), ("Imbalance", "C(imbalance)")]):
     v = am[k_]; yy = 3.45 - i * 0.6; ax.text(6.8, yy, n_, fontsize=10.5, va="center", color=INK)
     ax.add_patch(plt.Rectangle((8.05, yy - 0.15), 1.4 * v / 40, 0.30, fc=B_, ec="none")); ax.text(8.1 + 1.4 * v / 40, yy, f"{v:.0f}%", fontsize=10, va="center", color=INK)
 ax.text(6.8, 0.85, "Share of variance, 270 configurations", fontsize=9, color=MUTE, va="center")
-box(9.95, 3.1, "4. Pooled CV vs new houses")
+box(9.95, 3.1, "4. Pooled vs new homes")
 _RV = json.load(open(_rv)) if os.path.exists(_rv) else {}  # revision: k-NN excluded (no class weighting)
 _cwp = _RV.get("cw_gain_matched_pooled", R['eff_pooled']['cw_gain']); _cwl = _RV.get("cw_gain_matched_lho", R['eff_lho']['cw_gain'])
 rows = [("Weighted F1", "0.55", f"{R['w_pooledsel']:.2f}"), ("Model gaps", "sig.", "n.s."), ("Feature gain", f"+{R['eff_pooled']['gain']:.0f}%", f"+{R['eff_lho']['gain']:.0f}%"),
-        ("Weighting gain", f"+{_cwp:.0f}%", f"+{_cwl:.0f}%"), ("CNN, same protocol", "", f"{_RV['cnn_calibrated']['centred']['weighted']:.2f}" if _RV.get('cnn_calibrated', {}).get('centred', {}).get('weighted') else f"{R['D_w']:.2f}")]
+        ("Weighting gain", f"+{_cwp:.0f}%", f"+{_cwl:.0f}%"), ("CNN, calibrated", "", f"{_RV['cnn_calibrated']['centred']['weighted']:.2f}" if _RV.get('cnn_calibrated', {}).get('centred', {}).get('weighted') else f"{R['D_w']:.2f}")]
 ax.text(11.75, 3.62, "Pooled", fontsize=9, color=B_, ha="center", fontweight="bold"); ax.text(12.6, 3.62, "Unseen", fontsize=9, color=O_, ha="center", fontweight="bold")
 for i, (n_, a_, b_) in enumerate(rows):
     yy = 3.18 - i * 0.46; ax.text(10.12, yy, n_, fontsize=9.4, va="center", color=INK)
