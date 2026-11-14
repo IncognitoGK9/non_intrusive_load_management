@@ -152,9 +152,10 @@ for i, t in enumerate(["REFIT: 20 UK households", "Aggregate meter, about 8 s", 
     ax.text(0.45, 3.5 - i * 0.52, t, fontsize=10.5, color=INK if i != 2 else MUTE, va="center")
 ax.text(0.45, 0.85, "ON/OFF labels from appliance channels", fontsize=9, color=MUTE, va="center")
 box(3.35, 3.0, "2. Factorial experiment")
-for i, (n_, t) in enumerate([("7", "classical models"), ("2", "feature sets"), ("4", "imbalance strategies")]):
-    ax.text(3.65, 3.5 - i * 0.62, n_, fontsize=21, fontweight="bold", color=B_, va="center"); ax.text(4.2, 3.5 - i * 0.62, t, fontsize=11, color=INK, va="center")
-ax.text(3.65, 1.55, "= 270 configurations", fontsize=13, fontweight="bold", color=O_, va="center"); ax.text(3.65, 0.95, "All re-tested on unseen homes", fontsize=9, color=MUTE, va="center")
+for i, (n_, t) in enumerate([("7", "classical models"), ("2", "feature sets"), ("4", "imbalance strategies"), ("5", "appliances")]):
+    ax.text(3.65, 3.55 - i * 0.5, n_, fontsize=19, fontweight="bold", color=B_, va="center"); ax.text(4.2, 3.55 - i * 0.5, t, fontsize=11, color=INK, va="center")
+ax.text(3.65, 1.5, "= 270 configurations", fontsize=13, fontweight="bold", color=O_, va="center")
+ax.text(3.65, 1.1, "280 combinations, 10 not applicable", fontsize=9, color=MUTE, va="center"); ax.text(3.65, 0.8, "All re-tested on unseen homes", fontsize=9, color=MUTE, va="center")
 box(6.6, 3.1, "3. What drives F1?"); am = A["main"]
 for i, (n_, k_) in enumerate([("Appliance", "C(appliance)"), ("Feature set", "C(arm)"), ("Model", "C(model)"), ("Imbalance", "C(imbalance)")]):
     v = am[k_]; yy = 3.45 - i * 0.6; ax.text(6.8, yy, n_, fontsize=10.5, va="center", color=INK)

@@ -70,7 +70,7 @@ R['D']=dd.round(3).to_dict('index'); R['D_w']=float((dd.f1*dd.on).sum()/dd.on.su
 R['D_vs']={a:dict(cnn=dd.f1[a],classical_pooledsel=sel[a]['p_lho'],classical_lhobest=sel[a]['l_lho']) for a in dd.index}
 m2=smf.ols('pooled ~ (C(appliance)+C(model)+C(arm)+C(imbalance))**2',data=P).fit(); a2=sm.stats.anova_lm(m2,typ=2)
 m1=smf.ols('pooled ~ C(appliance)+C(model)+C(arm)+C(imbalance)',data=P).fit(); a1=sm.stats.anova_lm(m1,typ=2)
-json.dump({'main':(100*a1.sum_sq/a1.sum_sq.sum()).to_dict(),'twoway':(100*a2.sum_sq/a2.sum_sq.sum()).to_dict(),'p':a2['PR(>F)'].dropna().to_dict(),'r2':m2.rsquared},open(os.path.join(OUT,'anova_pooled_270.json'),'w'),indent=1)
+json.dump({'main':(100*a1.sum_sq/a1.sum_sq.sum()).to_dict(),'twoway':(100*a2.sum_sq/a2.sum_sq.sum()).to_dict(),'p_main':a1['PR(>F)'].dropna().to_dict(),'p':a2['PR(>F)'].dropna().to_dict(),'r2':m2.rsquared},open(os.path.join(OUT,'anova_pooled_270.json'),'w'),indent=1)
 json.dump(R,open(os.path.join(OUT,'analysis_unseen_houses.json'),'w'),indent=1,default=float)
 print(json.dumps({k:R[k] for k in ['n_cfg','n5','eff_pooled','eff_lho','BgtA','BgtA_pooled','drop_imb','eta','rho_all','rho_opt','n_lower','n_changed','w_pooledsel','w_lhobest','fried_pooledsel','fried_lhobest','fried_pooled','fried_pooledsel_ranks','C','C_best','D_w','D_macro','D_vs']},indent=0,default=lambda x: round(float(x),3)))
 for a,v in sel.items(): print(a,v['p'],round(v['p_pooled'],3),round(v['p_lho'],3),'|',v['l'],round(v['l_lho'],3))

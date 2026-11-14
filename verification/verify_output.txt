@@ -1,0 +1,218 @@
+status {'ok': 270, 'not_applicable': 10}
+n 270 270
+
+[4.1] acc>f1 all: True mean acc 0.862 range 0.496-0.996; mean f1 0.278 range 0.000-0.570
+                  model  f1_mean  accuracy_mean
+171        DecisionTree   0.1194         0.9945
+175            LightGBM   0.0005         0.9962
+179  LogisticRegression   0.0055         0.9959
+183        RandomForest   0.0286         0.9962
+187             SVM_RBF   0.0000         0.9962
+191             XGBoost   0.0000         0.9962
+195                 kNN   0.0920         0.9954
+n f1==0: 3 [['kettle', 'A', 'SVM_RBF', 'none'], ['microwave', 'A', 'SVM_RBF', 'none'], ['microwave', 'A', 'XGBoost', 'none']]
+
+[4.2] best per model mean/sd(ddof1)/sd(ddof0)
+                      mean    sd1    sd0
+model                                  
+XGBoost             0.498  0.099  0.089
+DecisionTree        0.458  0.117  0.104
+LightGBM            0.450  0.151  0.135
+kNN                 0.445  0.121  0.108
+RandomForest        0.437  0.167  0.150
+SVM_RBF             0.406  0.156  0.139
+LogisticRegression  0.264  0.143  0.128
+ranks {'DecisionTree': 3.2, 'LightGBM': 3.6, 'LogisticRegression': 7.0, 'RandomForest': 3.6, 'SVM_RBF': 5.4, 'XGBoost': 1.2, 'kNN': 4.0}
+appliance           dishwasher  fridge  kettle  microwave  washing_machine
+model                                                                     
+DecisionTree               2.0     4.0     5.0        2.0              3.0
+LightGBM                   3.0     3.0     6.0        4.0              2.0
+LogisticRegression         7.0     7.0     7.0        7.0              7.0
+RandomForest               4.0     1.0     3.0        5.0              5.0
+SVM_RBF                    6.0     5.0     4.0        6.0              6.0
+XGBoost                    1.0     2.0     1.0        1.0              1.0
+kNN                        5.0     6.0     2.0        3.0              4.0
+friedman FriedmanchisquareResult(statistic=np.float64(21.171428571428578), pvalue=np.float64(0.0017089203387883028))
+appliance           dishwasher  fridge  kettle  microwave  washing_machine
+model                                                                     
+DecisionTree             0.500   0.542   0.519      0.254            0.474
+LightGBM                 0.499   0.552   0.510      0.182            0.506
+LogisticRegression       0.333   0.438   0.156      0.083            0.308
+RandomForest             0.491   0.556   0.549      0.151            0.438
+SVM_RBF                  0.442   0.503   0.544      0.146            0.394
+XGBoost                  0.512   0.552   0.570      0.324            0.532
+kNN                      0.489   0.491   0.551      0.237            0.456
+
+[4.3] best per model by arm (max over app, imb)
+arm                     A      B      d
+model                                  
+DecisionTree        0.523  0.542  0.019
+LightGBM            0.528  0.552  0.023
+LogisticRegression  0.438  0.405 -0.034
+RandomForest        0.528  0.556  0.029
+SVM_RBF             0.503  0.544  0.040
+XGBoost             0.527  0.570  0.043
+kNN                 0.410  0.551  0.140
+arm means {'A': 0.2204, 'B': 0.335} gain 52.0
+avg over appliances of best
+ arm                     A      B      d
+model                                  
+DecisionTree        0.300  0.458  0.158
+LightGBM            0.276  0.450  0.174
+LogisticRegression  0.241  0.255  0.014
+RandomForest        0.301  0.437  0.136
+SVM_RBF             0.255  0.405  0.150
+XGBoost             0.267  0.498  0.231
+kNN                 0.279  0.445  0.166
+best cfg arm per appliance            appliance arm         model     imbalance  f1_mean  f1_std  precision_mean  recall_mean  accuracy_mean   n_rows
+51        dishwasher   B       XGBoost          none   0.5116  0.0079          0.7895       0.3784         0.9658   900000
+98            fridge   B  RandomForest  class_weight   0.5565  0.0016          0.4437       0.7463         0.6257  1080000
+163           kettle   B       XGBoost          none   0.5702  0.0214          0.7794       0.4499         0.9958   960000
+218        microwave   B       XGBoost  class_weight   0.3245  0.0398          0.2764       0.4443         0.9925   960000
+275  washing_machine   B       XGBoost          none   0.5323  0.0061          0.6900       0.4334         0.9761  1140000
+
+[4.4] bestcase {'ADASYN': 0.509, 'SMOTE': 0.501, 'class_weight': 0.518, 'none': 0.467}
+means {'ADASYN': 0.274, 'SMOTE': 0.2908, 'class_weight': 0.3054, 'none': 0.2311}
+LR best by imb {'ADASYN': 0.438, 'SMOTE': 0.4, 'class_weight': 0.405, 'none': 0.109}
+Table6
+ imbalance        ADASYN  SMOTE  class_weight   none
+appliance                                          
+dishwasher        0.313  0.336         0.344  0.500
+fridge            0.502  0.504         0.550  0.330
+kettle            0.299  0.334         0.412  0.537
+microwave         0.194  0.198         0.228  0.202
+washing_machine   0.409  0.435         0.428  0.487
+
+[4.5] second best diffs
+dishwasher ['B', 'XGBoost', 'none'] 0.5116 ['B', 'DecisionTree', 'none'] 0.4997 diff 0.0119 range 0.463 min 0.048 54
+fridge ['B', 'RandomForest', 'class_weight'] 0.5565 ['B', 'XGBoost', 'class_weight'] 0.5519 diff 0.0046 range 0.550 min 0.006 54
+kettle ['B', 'XGBoost', 'none'] 0.5702 ['B', 'kNN', 'none'] 0.5506 diff 0.0195 range 0.570 min 0.000 54
+microwave ['B', 'XGBoost', 'class_weight'] 0.3245 ['B', 'XGBoost', 'SMOTE'] 0.2802 diff 0.0443 range 0.324 min 0.000 54
+washing_machine ['B', 'XGBoost', 'none'] 0.5323 ['B', 'LightGBM', 'none'] 0.5058 diff 0.0265 range 0.515 min 0.017 54
+fridge best per model {'DecisionTree': 0.5418, 'LightGBM': 0.5516, 'LogisticRegression': 0.4381, 'RandomForest': 0.5565, 'SVM_RBF': 0.5035, 'XGBoost': 0.5519, 'kNN': 0.4911}
+fridge FPR approx 0.4297
+
+[4.6]
+n rerun 160 mean dF1 -0.0207 mean dAcc -0.0102
+                mean  <lambda_0>  size
+model                                 
+LightGBM     -0.0270          14    40
+RandomForest -0.0526          15    40
+SVM_RBF       0.0022          28    40
+XGBoost      -0.0052          18    40
+others unchanged: True
+fridge ['B', 'LightGBM', 'class_weight'] 0.5483 -> ['B', 'RandomForest', 'class_weight'] 0.5565 0.0082
+washing_machine ['B', 'XGBoost', 'class_weight'] 0.5116 -> ['B', 'XGBoost', 'none'] 0.5323 0.0207
+dishwasher ['B', 'DecisionTree', 'none'] 0.4997 -> ['B', 'XGBoost', 'none'] 0.5116 0.0119
+kettle ['B', 'kNN', 'none'] 0.5506 -> ['B', 'XGBoost', 'none'] 0.5702 0.0195
+microwave ['B', 'XGBoost', 'class_weight'] 0.2557 -> ['B', 'XGBoost', 'class_weight'] 0.3245 0.0688
+first-pass ranks {'DecisionTree': 2.8, 'LightGBM': 3.2, 'LogisticRegression': 7.0, 'RandomForest': 4.2, 'SVM_RBF': 5.2, 'XGBoost': 1.6, 'kNN': 4.0}
+friedman 4 rerun final FriedmanchisquareResult(statistic=np.float64(10.200000000000003), pvalue=np.float64(0.016940373522533844)) first FriedmanchisquareResult(statistic=np.float64(9.719999999999999), pvalue=np.float64(0.021102512414100234)) first all7 FriedmanchisquareResult(statistic=np.float64(19.628571428571433), pvalue=np.float64(0.003223838751999786))
+
+[4.7] ANOVA main 270
+{'C(appliance)': 37.68, 'C(model)': 7.55, 'C(arm)': 13.22, 'C(imbalance)': 2.09, 'Residual': 39.46}
+{'C(appliance)': 4.8146896817805445e-36, 'C(model)': 4.759332164094117e-08, 'C(arm)': 9.790476456241385e-18, 'C(imbalance)': 0.00426962811046396, 'Residual': nan}
+share of TOTAL SS {'C(appliance)': 37.76, 'C(model)': 7.56, 'C(arm)': 13.25, 'C(imbalance)': 2.09, 'Residual': 39.54} r2 0.6046
+
+[4.8] 35 configs
+model            DecisionTree  LightGBM  LogisticRegression  RandomForest  SVM_RBF  XGBoost  kNN
+appliance                                                                                       
+dishwasher                  5         5                   5             5        5        5    5
+fridge                      5         5                   5             5        5        5    5
+kettle                      5         5                   5             5        5        5    5
+microwave                   5         5                   5             5        5        5    5
+washing_machine             5         5                   5             5        5        5    5
+same imbalance as pooled best FS-B: True 35
+max abs diff 35 vs 270: 0.0009317760204727854
+          appliance         model imbalance     lho  lho270
+3        dishwasher  RandomForest      none  0.1886  0.1893
+29  washing_machine      LightGBM      none  0.4610  0.4600
+per-model mean drop {'DecisionTree': 0.115, 'LightGBM': 0.109, 'LogisticRegression': 0.007, 'RandomForest': 0.102, 'SVM_RBF': 0.068, 'XGBoost': 0.135, 'kNN': 0.116}
+LHO ranks {'DecisionTree': 3.6, 'LightGBM': 3.8, 'LogisticRegression': 5.8, 'RandomForest': 4.0, 'SVM_RBF': 4.0, 'XGBoost': 3.0, 'kNN': 3.8} friedman FriedmanchisquareResult(statistic=np.float64(4.799999999999997), pvalue=np.float64(0.569708746657511))
+pooled ranks (FS-B best) {'DecisionTree': 3.2, 'LightGBM': 3.6, 'LogisticRegression': 7.0, 'RandomForest': 3.6, 'SVM_RBF': 5.4, 'XGBoost': 1.2, 'kNN': 4.0}
+spearman mean ranks SignificanceResult(statistic=np.float64(0.8807710121010887), pvalue=np.float64(0.008832621166088222)) vs overall pooled ranks SignificanceResult(statistic=np.float64(0.8807710121010887), pvalue=np.float64(0.008832621166088222))
+dishwasher
+                 model     imbalance  f1_mean    lho   drop
+0        DecisionTree          none    0.500  0.225  0.275
+1            LightGBM          none    0.499  0.202  0.297
+2  LogisticRegression  class_weight    0.328  0.302  0.027
+3        RandomForest          none    0.491  0.189  0.302
+4             SVM_RBF          none    0.442  0.250  0.192
+5             XGBoost          none    0.512  0.224  0.288
+6                 kNN          none    0.489  0.232  0.257
+rho pooled vs drop SignificanceResult(statistic=np.float64(0.5308123249299721), pvalue=np.float64(0.0010361492766497924)) rho mean vs drop SignificanceResult(statistic=np.float64(0.26050420168067223), pvalue=np.float64(0.13067988447665535))
+Table9
+          appliance         model     imbalance  f1_mean    lho     sd     mn     mx      p      r   drop
+0       dishwasher       XGBoost          none    0.512  0.224  0.082  0.099  0.295  0.457  0.156  0.288
+1           fridge  RandomForest  class_weight    0.556  0.474  0.112  0.292  0.580  0.380  0.692  0.082
+2           kettle       XGBoost          none    0.570  0.421  0.160  0.229  0.591  0.511  0.366  0.149
+3        microwave       XGBoost  class_weight    0.324  0.224  0.069  0.126  0.307  0.199  0.279  0.100
+4  washing_machine       XGBoost          none    0.532  0.474  0.086  0.330  0.537  0.619  0.392  0.059
+w pooled 0.5482 w lho 0.4466 macro 0.4990 0.3635
+/tmp/t/nilm/manuscript/EAAI/review_v16/verify_numbers.py:68: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  m=smf.ols('f1 ~ C(appliance)+C(grp)+C(model)',data=L35).fit(); a=sm.stats.anova_lm(m,typ=1); print('seq SS',(100*a.sum_sq/a.sum_sq.sum()).round(1).to_dict())
+seq SS {'C(appliance)': 52.8, 'C(grp)': 27.3, 'C(model)': 4.6, 'Residual': 15.4}
+
+[4.9]
+rho 0.9056070770725414 n lower 207 rho drop SignificanceResult(statistic=np.float64(0.6319826304451038), pvalue=np.float64(1.639124365649193e-31)) rho mean SignificanceResult(statistic=np.float64(0.508930776045023), pvalue=np.float64(3.397306135682577e-19))
+B>A 112 135 wilcoxon WilcoxonResult(statistic=np.float64(881.0), pvalue=np.float64(3.7633135522556733e-16))
+arm means lho {'A': 0.1894, 'B': 0.288} drop {'A': 0.031, 'B': 0.0469}
+imb lho 6 models {'ADASYN': 0.2504, 'SMOTE': 0.2701, 'class_weight': 0.2695, 'none': 0.1596} pooled {'ADASYN': 0.274, 'SMOTE': 0.2908, 'class_weight': 0.3054, 'none': 0.2311} drop {'ADASYN': 0.0235, 'SMOTE': 0.0207, 'class_weight': 0.0359, 'none': 0.0715}
+eta lho {'C(appliance)': 33.67, 'C(model)': 3.6, 'C(arm)': 13.06, 'C(imbalance)': 9.06, 'Residual': 40.6}
+dishwasher ['B', 'XGBoost', 'none'] 0.2241 ['B', 'XGBoost', 'SMOTE'] 0.3738 lost 0.1498
+fridge ['B', 'RandomForest', 'class_weight'] 0.4744 ['A', 'SVM_RBF', 'ADASYN'] 0.4774 lost 0.0029
+kettle ['B', 'XGBoost', 'none'] 0.4209 ['B', 'LightGBM', 'SMOTE'] 0.4787 lost 0.0578
+microwave ['B', 'XGBoost', 'class_weight'] 0.2242 ['B', 'LightGBM', 'SMOTE'] 0.2435 lost 0.0193
+washing_machine ['B', 'XGBoost', 'none'] 0.4738 ['B', 'LightGBM', 'SMOTE'] 0.4997 lost 0.0260
+nested: better 12 worse 10 tie 3 wilcoxon WilcoxonResult(statistic=np.float64(75.0), pvalue=np.float64(0.09452807127959174)) wilcoxon pratt WilcoxonResult(statistic=np.float64(105.0), pvalue=np.float64(0.14202596964775602)) mean diff 0.0331
+                 grouped_f1  pooled_f1  oracle_f1
+appliance                                        
+dishwasher           0.3237     0.2134     0.3778
+fridge               0.4667     0.4736     0.4777
+kettle               0.4824     0.4857     0.4965
+microwave            0.2549     0.2248     0.2662
+washing_machine      0.5134     0.4782     0.5306
+w 0.4548191231699224 0.4461334847225095 0.4706663918415973 wilcoxon on 5 appliances WilcoxonResult(statistic=np.float64(3.0), pvalue=np.float64(0.3125))
+corr chosen: grouped 22 pooled 10
+
+[5.3] depth
+{'ok': 40} <StringArray>
+['RandomForest']
+Length: 1, dtype: str
+n 40 unchanged 23 changed 17 mean all -0.0388 mean changed -0.0913 median -0.1039
+RF total -0.0526
+
+[CNN D]
+                    f1      p      r
+appliance                           
+dishwasher       0.344  0.232  0.726
+fridge           0.468  0.383  0.650
+kettle           0.150  0.082  0.924
+microwave        0.080  0.042  0.951
+washing_machine  0.490  0.342  0.912
+w 0.45014850449102944 macro 0.30657724459155666
+                            f1   ep  epmax    thr       ntr  n
+variant appliance                                             
+causal  dishwasher       0.390  5.6     11  0.813  600000.0  5
+        fridge           0.497  5.2     12  0.392  684000.0  5
+        kettle           0.533  4.2     10  0.975  600000.0  5
+        microwave        0.249  7.2     10  0.942  600000.0  5
+        washing_machine  0.632  6.6     10  0.916  732000.0  5
+centred dishwasher       0.441  5.0      9  0.864  600000.0  5
+        fridge           0.492  6.6     11  0.356  684000.0  5
+        kettle           0.390  9.2     11  0.962  600000.0  5
+        microwave        0.160  5.0     12  0.924  600000.0  5
+        washing_machine  0.664  8.6     12  0.925  732000.0  5
+
+[4.8 new sentence] micro-aggregated leave-house-out F1 (confusion counts pooled over the five folds)
+                        model arm     imbalance  f1_mean  mean_f1  micro
+appliance                                                               
+dishwasher            XGBoost   B          none    0.512    0.224  0.200
+fridge           RandomForest   B  class_weight    0.556    0.474  0.491
+kettle                XGBoost   B          none    0.570    0.421  0.421
+microwave             XGBoost   B  class_weight    0.324    0.224  0.221
+washing_machine       XGBoost   B          none    0.532    0.474  0.470
+weighted: pooled 0.548, unseen mean of folds 0.447, unseen pooled counts 0.457
+
+[S8 fix] main-effects p-values, 270 configurations
+{'C(appliance)': 4.8146896817805445e-36, 'C(model)': 4.759332164094117e-08, 'C(arm)': 9.790476456241385e-18, 'C(imbalance)': 0.00426962811046396, 'Residual': nan}

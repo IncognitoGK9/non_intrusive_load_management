@@ -13,9 +13,10 @@ dc = pd.read_csv(P("results_depth_control", "summary_results.csv")).merge(first[
 dc["f1_change"] = dc.f1_mean_depth12 - dc.f1_mean_first_pass
 A = json.load(open(P("results_final", "anova_pooled_270.json")))
 R = json.load(open(P("results_final", "analysis_unseen_houses.json")))
-anova = pd.DataFrame([("270 configurations, pooled CV, main effects", k, v) for k, v in A["main"].items()] +
-                     [("270 configurations, pooled CV, two-way interactions", k, v) for k, v in A["twoway"].items()] +
-                     [("270 configurations, unseen houses, main effects", k, v) for k, v in R["eta"]["lho"].items()], columns=["analysis", "term", "share_of_variance_pct"])
+# p-values: "p_main" belongs to the main-effects model, "p" to the two-way model; they must not be mixed
+anova = pd.DataFrame([("270 configurations, pooled CV, main effects", k, v, A.get("p_main", {}).get(k)) for k, v in A["main"].items()] +
+                     [("270 configurations, pooled CV, two-way interactions", k, v, A.get("p", {}).get(k)) for k, v in A["twoway"].items()] +
+                     [("270 configurations, unseen houses, main effects", k, v, None) for k, v in R["eta"]["lho"].items()], columns=["analysis", "term", "share_of_variance_pct", "p_value"])
 U = lambda ph: pd.read_csv(P("results_all_experiments", ph, "fold_results.csv"))
 sheets = [
  ("Table S1", "Per-house data audit of the five appliances (share of time ON and mean power).", pd.read_csv(P("tables", "data_audit_summary.csv"))),
@@ -32,7 +33,7 @@ sheets = [
  ("Table S12", "Same-protocol convolutional network on raw aggregate windows (fold level).", U("phase_D")),
 ]
 wb = Workbook(); ws = wb.active; ws.title = "Notes"
-ws["A1"] = "Supplementary material: What matters in classical non-intrusive load monitoring? A factorial benchmark on REFIT with validation on unseen houses"; ws["A1"].font = Font(bold=True)
+ws["A1"] = "Supplementary material for: Non-intrusive appliance state detection in unseen homes using classical machine learning"; ws["A1"].font = Font(bold=True)
 for i, (n, t, _) in enumerate(sheets, 3): ws.cell(row=i, column=1, value=f"{n}. {t}")
 ws.cell(row=len(sheets) + 4, column=1, value="F1 is the F1 score of the ON class. FS-A: basic features; FS-B: engineered rolling-window features. Class weighting is not applicable to k-NN.")
 ws.column_dimensions["A"].width = 140

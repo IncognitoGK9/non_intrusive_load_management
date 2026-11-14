@@ -138,6 +138,7 @@ python3 analyse_unseen_houses.py      # results_final/analysis_unseen_houses.jso
 python3 analyse_revision.py           # results_final/revision_summary.json, nested_selection_phaseC.csv
 python3 make_paper_figures.py         # figures/fig01 ... fig09, graphical_abstract.png
 python3 build_supplementary.py        # results_final/Supplementary_Material.xlsx (Tables S1 to S12)
+python3 ../verification/verify_numbers.py   # recomputes the headline numbers quoted in the paper from the stored results
 ```
 
 Expected outcome: the JSON and CSV files in `results_final/` are regenerated identically (this was verified on macOS and on Linux: 320 values in `analysis_unseen_houses.json`, 202 in `revision_summary.json` and 27 in `anova_pooled_270.json` matched exactly). Run times: under a minute in total.
@@ -313,6 +314,7 @@ results_lho_factorial/         leave-house-out factorial, LR, DT, XGBoost
 results_all_experiments/       phases A to E, R_CNN, R_SENS; config/ (plans, reference partition); logs/
 results_final/                 consolidated results and analysis outputs
 tables/data_audit_summary.csv  per-house data audit
+verification/                  verify_numbers.py recomputes the numbers quoted in the paper from the stored results; verify_output.txt is its reference output
 figures/                       figures of the paper (PNG, 300 dpi; Fig. 1 also PDF)
 ```
 
