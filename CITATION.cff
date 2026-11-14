@@ -8,4 +8,8 @@ authors:
 license: MIT
 repository-code: "https://github.com/IncognitoGK9/non_intrusive_load_management"
 date-released: 2026-10-30
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2611.00920"
+    description: "arXiv preprint of the paper (latest version)"
 keywords: [non-intrusive load monitoring, NILM, REFIT, classical machine learning, class imbalance, leave-house-out validation]
